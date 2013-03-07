@@ -1,6 +1,24 @@
 // --------------------------------------------------------------------
 // nav bar modules
 // --------------------------------------------------------------------
+nav {
+	@nav-height: 85px;
+	@nav-padding: 20px;
+	background: black;
+	height: (@nav-height - @nav-padding);
+	padding: @nav-padding 0 0 0;
+	position: relative;
+
+	a {
+		color: white;
+		text-decoration: none;
+		&:hover {
+			color: white;
+			text-decoration: none;
+		}
+	}
+}
+
 .nav-logo {
 	background: url(@nav-logo-uri) 0 0 no-repeat;
 	display: inline-block;
@@ -85,6 +103,7 @@
 	position: relative;
 	top: 3px;
 	width: @nav-btn-width;
+
 	&:hover  { background: url(@nav-btns-uri) (-1 * @nav-btn-width) 0 no-repeat; }
 	&:active { background: url(@nav-btns-uri) (-2 * @nav-btn-width) 0 no-repeat; }
 }

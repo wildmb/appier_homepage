@@ -3,6 +3,11 @@ body {
   background: white;
   min-width: 1280px;
 }
+/* Layouts */
+/* Modules */
+.container {
+  width: 1200px;
+}
 nav {
   background: black;
   height: 65px;
@@ -16,11 +21,6 @@ nav a {
 nav a:hover {
   color: white;
   text-decoration: none;
-}
-/* Layouts */
-/* Modules */
-.container {
-  width: 1200px;
 }
 .nav-logo {
   background: url("../image/base/logo.png") 0 0 no-repeat;
@@ -115,4 +115,30 @@ nav a:hover {
 }
 .nav-register-btn:active {
   background: url("../image/base/nav_btn_sprite.png") -360px 0 no-repeat;
+}
+footer {
+  background: url("../image/base/footer_bg.png") 0 0 repeat;
+  color: #454545;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 20px;
+  position: relative;
+}
+footer.container {
+  width: 1160px;
+}
+.footer-hiring {
+  height: 186px;
+  position: absolute;
+  right: 20px;
+  top: -20px;
+  width: 178px;
+}
+.copyright {
+  padding-top: 20px;
+  text-align: center;
+}
+.copyright-link {
+  color: #454545;
+  text-decoration: underline;
 }
