@@ -1,0 +1,96 @@
+// --------------------------------------------------------------------
+// nav bar modules
+// --------------------------------------------------------------------
+.nav-logo {
+	background: url(@nav-logo-uri) 0 0 no-repeat;
+	display: inline-block;
+	height: 41px;
+	position: absolute;
+	top: 20px;
+	width: 100px;
+}
+
+@nav-item-line-height: 33px;
+
+.nav-item-group {
+	display: inline-block;
+	line-height: @nav-item-line-height;
+	position: absolute;
+	right: 0;
+
+	& > .nav-item { list-style: none; }
+}
+
+.nav-item {
+	border-left: 1px solid white;
+	color: white;
+	display: inline-block;
+	font-family: @nav-font-family;
+	font-size: 23px;
+	line-height: @nav-item-line-height;
+	text-align: center;
+	width: 135px;
+
+	&:hover {
+		color: white;
+		text-decoration: none;
+	}
+
+	&.is-solutions {
+		.nav-menu-body { display: none; }
+
+		&:hover {
+			.nav-menu-body { display: block; }
+		}
+	}
+
+	&.is-btns { width: 200px; }
+}
+
+.nav-menu-body {
+	color: white;
+	left: 168px;
+	line-height: 0;
+	position: absolute;
+	top: 35px;
+
+	.underline {
+		border: 1px solid white;
+		width: 80px;
+	}
+}
+
+.nav-solution {
+	color: white;
+	font-family: @nav-font-family;
+	font-size: 22px;
+	line-height: @nav-item-line-height;
+
+	&:hover {
+		color: white;
+		text-decoration: none;
+	}
+}
+
+.nav-circle-separator {
+	font-weight: bold;
+	&:after { content: " · "; }
+}
+
+.nav-login-btn, .nav-register-btn {
+	background: url(@nav-btns-uri) 0 0 no-repeat;
+	cursor: pointer;
+	display: inline-block;
+	height: 26px;
+	position: relative;
+	top: 3px;
+	width: @nav-btn-width;
+	&:hover  { background: url(@nav-btns-uri) (-1 * @nav-btn-width) 0 no-repeat; }
+	&:active { background: url(@nav-btns-uri) (-2 * @nav-btn-width) 0 no-repeat; }
+}
+
+.nav-register-btn {
+	background: url(@nav-btns-uri) (-3 * @nav-btn-width) 0 no-repeat;
+	&:hover   { background: url(@nav-btns-uri) (-4 * @nav-btn-width) 0 no-repeat; };
+	&:active  { background: url(@nav-btns-uri) (-5 * @nav-btn-width) 0 no-repeat; };
+}

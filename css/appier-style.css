@@ -1,0 +1,118 @@
+/* Base */
+body {
+  background: white;
+  min-width: 1280px;
+}
+nav {
+  background: black;
+  height: 65px;
+  padding: 20px 0 0 0;
+  position: relative;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+/* Layouts */
+/* Modules */
+.container {
+  width: 1200px;
+}
+.nav-logo {
+  background: url("../image/base/logo.png") 0 0 no-repeat;
+  display: inline-block;
+  height: 41px;
+  position: absolute;
+  top: 20px;
+  width: 100px;
+}
+.nav-item-group {
+  display: inline-block;
+  line-height: 33px;
+  position: absolute;
+  right: 0;
+}
+.nav-item-group > .nav-item {
+  list-style: none;
+}
+.nav-item {
+  border-left: 1px solid white;
+  color: white;
+  display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 23px;
+  line-height: 33px;
+  text-align: center;
+  width: 135px;
+}
+.nav-item:hover {
+  color: white;
+  text-decoration: none;
+}
+.nav-item.is-solutions .nav-menu-body {
+  display: none;
+}
+.nav-item.is-solutions:hover .nav-menu-body {
+  display: block;
+}
+.nav-item.is-btns {
+  width: 200px;
+}
+.nav-menu-body {
+  color: white;
+  left: 168px;
+  line-height: 0;
+  position: absolute;
+  top: 35px;
+}
+.nav-menu-body .underline {
+  border: 1px solid white;
+  width: 80px;
+}
+.nav-solution {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+}
+.nav-solution:hover {
+  color: white;
+  text-decoration: none;
+}
+.nav-circle-separator {
+  font-weight: bold;
+}
+.nav-circle-separator:after {
+  content: " · ";
+}
+.nav-login-btn,
+.nav-register-btn {
+  background: url("../image/base/nav_btn_sprite.png") 0 0 no-repeat;
+  cursor: pointer;
+  display: inline-block;
+  height: 26px;
+  position: relative;
+  top: 3px;
+  width: 72px;
+}
+.nav-login-btn:hover,
+.nav-register-btn:hover {
+  background: url("../image/base/nav_btn_sprite.png") -72px 0 no-repeat;
+}
+.nav-login-btn:active,
+.nav-register-btn:active {
+  background: url("../image/base/nav_btn_sprite.png") -144px 0 no-repeat;
+}
+.nav-register-btn {
+  background: url("../image/base/nav_btn_sprite.png") -216px 0 no-repeat;
+}
+.nav-register-btn:hover {
+  background: url("../image/base/nav_btn_sprite.png") -288px 0 no-repeat;
+}
+.nav-register-btn:active {
+  background: url("../image/base/nav_btn_sprite.png") -360px 0 no-repeat;
+}
