@@ -28,7 +28,7 @@ def make_page(page_name):
         try:
             with open(filename, 'r') as f:
                 sections[section] = f.read()
-        except OSError:
+        except (OSError, IOError):
             print "Can't find", filename
 
     with open('%s.html' % page_name, 'w') as f:
@@ -37,7 +37,7 @@ def make_page(page_name):
 def main(argv):
 
     if len(argv) < 2:
-        print "usage: python %s page_name"
+        print "usage: python %s page_name ..."
         exit(1)
 
     for p in argv[1:]:
