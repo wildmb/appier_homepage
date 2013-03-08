@@ -1,1 +1,158 @@
-body
+<div id="layout-index">
+
+  <!-- begin of .dissolve -->
+  <div class="dissolve">
+
+    <div class="dissolve-blue"><img class="container" src="image/index/image_blue.png"></div>
+    <div class="dissolve-orange hide"><img class="container" data-src="image/index/image-orange.png"></div>
+    <div class="dissolve-gray hide"><img class="container" data-src="image/index/image-gray.png"></div>
+
+    <!-- begin of .dissolve-heading -->
+    <div class="dissolve-heading">
+      <div class="container">
+        <h1>Reach the Highest Growth<br>& ARPU regions</h1>
+        <h2>One stop to premium Asia Mobile Traffic</h2>
+        <a class="dissolve-signup-btn" href="https://dashboard.appier.com/"></a><br>
+        <ul class="dissolve-control-group hide">
+          <li class="dissolve-control"></li>
+          <li class="dissolve-control"></li>
+          <li class="dissolve-control"></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end of .dissolve-heading -->
+
+    <div class="dissolve-foot-bar"></div>
+  </div>
+  <!-- end of .dissolve -->
+
+  <!-- begin of .doc-body -->
+  <div class="doc-body container">
+    <div class="row-fluid">
+      <!-- begin of .doc-body-left -->
+      <div class="span9 doc-body-left">
+
+        <!-- begin of .doc-body-open-market -->
+        <div class="doc-body-open-market">
+          <h3 class="doc-body-title">Open Marketplace</h3>
+          <ul>
+            <li>
+              <span class="doc-body-highlight">A free and transparent marketplace</span>
+              to instantly utilize promotion resources worldwide.
+            </li>
+            <li>
+              <span class="doc-body-highlight">Efficiently list, buy, and monitor</span>
+              advertising services from global promotion partners.
+            </li>
+            <li>
+              <span class="doc-body-highlight">Easy and hassle-free</span>
+              for advertisers and publishers to overcome transaction barriers.
+            </li>
+          </ul>
+          <a class="doc-body-getstart-btn" href="https://dashboard.appier.com/"></a>
+        </div>
+        <!-- end of .doc-body-open-market -->
+
+        <!-- begin of .doc-body-premium-market -->
+        <div class="doc-body-premium-market">
+          <h3 class="doc-body-title">Premium Mobile Marketing</h3>
+          <ul>
+            <li>
+              <span class="doc-body-highlight">Pioneering a unique mobile ad tech</span>
+              solution to maximize marketing ROI in real-time.
+            </li>
+            <li>
+              <span class="doc-body-highlight">Harnessed by AI technology and RTB</span>
+              to optimize campaign to boost your bottom line.
+            </li>
+            <li>
+              <span class="doc-body-highlight">Precise user targeting</span>
+              to achieve loyal user acquisition at the lowest cost.
+            </li>
+          </ul>
+          <a class="doc-body-getstart-btn" href="https://dashboard.appier.com/"></a>
+        </div>
+        <!-- end of .doc-body-open-market -->
+
+        <!-- begin of .doc-body-key-benefit -->
+        <div class="doc-body-key-benefit">
+          <h3 class="doc-body-title">Key Benefits</h3>
+
+          <div class="row-fluid" style="margin-bottom: 10px;">
+            <div class="span6 doc-body-benefit-item">
+              <div class="media">
+                <div class="pull-left media-object benefit-1"></div>
+                <div class="media-body">
+                  <h4 class="media-heading">Immense Scale and Scope</h4>
+                  Appier has extensive partnerships with mobile ad exchanges
+                  and ad networks spanning worldwide.
+                </div>
+              </div>
+            </div>
+
+            <div class="span6 doc-body-benefit-item">
+              <div class="media">
+                <div class="pull-left media-object benefit-2"></div>
+                <div class="media-body">
+                  <h4 class="media-heading">Access to App-related All in One Stop</h4>
+                  Appier has established formal partnerships with more than 60% of all
+                  major App review and news sites in Europe and Asia.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row-fluid">
+            <div class="span6 doc-body-benefit-item">
+              <div class="media">
+                <div class="pull-left media-object benefit-3"></div>
+                <div class="media-body">
+                  <h4 class="media-heading">Reach the Highest Growth/ARPU regions</h4>
+                  Appier has prevalent partnerships with local dominant user acquisition channels
+                  and App media in Korea, Japan and China.
+                </div>
+              </div>
+            </div>
+
+            <div class="span6 doc-body-benefit-item">
+              <div class="media">
+                <div class="pull-left media-object benefit-4"></div>
+                <div class="media-body">
+                  <h4 class="media-heading">Precise Audience Targeting</h4>
+                  Appier's AI-driven optimization and Real time bidding technology
+                  ensure precise targeting to acquire quality users.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of .doc-body-key-benefit -->
+
+        <div class="clearfix"></div>
+      </div>
+      <!-- end of .doc-body-left -->
+
+      <!-- begin of .doc-body-right -->
+      <div class="span3 doc-body-right">
+        <img src="image/index/Q.png" class="doc-body-email" alt="hello@appier.com">
+        <img src="image/index/2013.png" class="doc-body-gdc" alt="2013 GDC Booth #208">
+        <div class="doc-body-news-events">
+          <a class="fb-link" href="https://www.facebook.com/AppierNetwork"></a>
+          <a class="tw-link" href="https://twitter.com/GoAppier"></a>
+
+          <div class="doc-body-news">
+            <div class="doc-body-news-tag"></div>
+          </div>
+
+          <div class="doc-body-events">
+            <div class="doc-body-events-tag"></div>
+          </div>
+        </div>
+      </div>
+      <!-- end of .doc-body-right -->
+
+    </div>
+  </div>
+  <!-- end of .doc-body -->
+
+</div>

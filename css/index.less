@@ -1,0 +1,246 @@
+//---------------------------------------------------------------------
+// index page
+//---------------------------------------------------------------------
+#layout-index {
+
+	//-----------------------------------------------------------------
+	// dissolve
+	//-----------------------------------------------------------------
+	@dissolve-height: 430px;
+
+	.dissolve {
+		height: (@dissolve-height - @nav-height);
+		position: relative;
+	}
+
+	.dissolve-blue, .dissolve-orange, .dissolve-gray {
+		height: @dissolve-height;
+		position: absolute;
+		top: (-1 * @nav-height);
+		width: 100%;
+		z-index: 1;
+
+		.container {
+			display: block;
+			position: relative;
+			height: @dissolve-height
+		}
+	}
+
+	.dissolve-blue   { background: url(@index-dissolve-bluebg-uri) 0 0 repeat-x; }
+	.dissolve-orange { background: url(@index-dissolve-orangebg-uri) 0 0 repeat-x; }
+	.dissolve-gray   { background: url(@index-dissolve-graybg-uri) 0 0 repeat-x; }
+
+	.dissolve-heading {
+		h1, h2 {
+			color: white;
+			font-family: 'Roboto', sans-serif;
+			font-size: 54px;
+			font-weight: bold;
+			line-height: 55px;
+		}
+
+		h2 {
+			font-size: 30px;
+			font-weight: 400;
+			line-height: 35px;
+		}
+
+		position: absolute;
+		top: 35px;
+		width: 100%;
+		z-index: 10;
+	}
+
+	.dissolve-signup-btn {
+		background: url(@index-dissolve-signup-btn-uri) 0 0 no-repeat;
+		display: inline-block;
+		height: 55px;
+		margin-top: 20px;
+		width: 216px;
+	}
+
+	.dissolve-control-group {
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.dissolve-control {
+		background: url(@index-dissolve-dotbtn-uri) 0 0 no-repeat;
+		cursor: pointer;
+		display: inline-block;
+		list-style: none;
+		width: @index-dissolve-dotbtn-width;
+		height: 14px;
+
+		&:hover {
+			background: url(@index-dissolve-dotbtn-uri) (-1 * @index-dissolve-dotbtn-width) 0 no-repeat;
+		}
+
+		&.is-active, &:active {
+			background: url(@index-dissolve-dotbtn-uri) (-2 * @index-dissolve-dotbtn-width) 0 no-repeat;
+		}
+	}
+
+	.dissolve-foot-bar {
+		background: url(@index-dissolve-foot-bar) 0 0 repeat-x;
+		bottom: 0;
+		height: 20px;
+		position: absolute;
+		width: 100%;
+		z-index: 10;
+	}
+
+	//-----------------------------------------------------------------
+	// doc-body
+	//-----------------------------------------------------------------
+	.doc-body {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	@doc-body-left-width: 860px;
+
+	.doc-body-left {
+		width: @doc-body-left-width;
+	}
+
+	// width ratio of each item in open/premium market
+	@doc-body-market-item: 0.9;
+
+	.doc-body-open-market, .doc-body-premium-market {
+		float: left;
+		width: (@doc-body-left-width / 2);
+
+		.doc-body-title {
+			color: #004394;
+			font-family: Arial, sans-serif;
+			font-size: 30px;
+		}
+
+		ul > li {
+			color: #454545;
+			font-family: Arial, sans-serif;
+			font-size: 17px;
+			list-style-type: none;
+			list-style-image: url(@index-docbody-check-uri);
+			margin-bottom: 20px;
+			width: (@doc-body-left-width / 2 * @doc-body-market-item);
+		}
+	}
+
+	.doc-body-highlight {
+		color: #ff6600;
+	}
+
+	.doc-body-getstart-btn {
+		background: url(@index-docbody-getstart-btn-uri) 0 0 no-repeat;
+		display: block;
+		height: 46px;
+		margin: 20px 0 20px ((@doc-body-left-width / 2 * @doc-body-market-item - @index-docbody-getstart-btn-width) / 2);
+		width: @index-docbody-getstart-btn-width;
+
+		&:hover  { background: url(@index-docbody-getstart-btn-uri) (-1 * @index-docbody-getstart-btn-width) 0 no-repeat; }
+		&:active { background: url(@index-docbody-getstart-btn-uri) (-2 * @index-docbody-getstart-btn-width) 0 no-repeat; }
+	}
+
+	.doc-body-key-benefit {
+		@padding: 15px;
+		background: url(@index-docbody-benefit-bg-uri) 0 0 repeat-x;
+		float: left;
+		height: (@index-docbody-benefit-bg-height - @padding * 2);
+		margin-top: 40px;
+		padding: @padding;
+		width: (@doc-body-left-width - @padding* 2) * 0.97;
+
+		.mixin-rounded-corners(6px);
+
+		.doc-body-title {
+			color: #454545;
+			font-family: Arial, sans-serif;
+			font-size: 26px;
+			font-weight: 100;
+			line-height: 30px;
+			margin-top: 0;
+		}
+	}
+
+	.doc-body-benefit-item {
+		.benefit-1, .benefit-2, .benefit-3, .benefit-4 {
+			height: @index-docbody-benefit-height;
+			width: @index-docbody-benefit-width;
+		}
+
+		.benefit-1 { background: url(@index-docbody-benefit-sprite-uri) 0 0 no-repeat; }
+		.benefit-2 { background: url(@index-docbody-benefit-sprite-uri) (-1 * @index-docbody-benefit-width) 0 no-repeat;}
+		.benefit-3 { background: url(@index-docbody-benefit-sprite-uri) (-2 * @index-docbody-benefit-width) 0 no-repeat;}
+		.benefit-4 { background: url(@index-docbody-benefit-sprite-uri) (-3 * @index-docbody-benefit-width) 0 no-repeat;}
+
+		.media-heading, .media-body {
+			color: #454545;
+			font-family: Arial, sans-serif;
+			font-size: 20px;
+		}
+
+		.media-body {
+			font-size: 15px;
+		}
+	}
+
+	.doc-body-right {
+		margin-left: 0;
+		width: 300px;
+	}
+
+	.doc-body-email, .doc-body-gdc {
+		display: block;
+		height: 56px;
+		width: 281px;
+	}
+
+	.doc-body-gdc {
+		margin: 10px 0;
+		height: 94px;
+	}
+
+	.doc-body-news-events {
+		.mixin-box-shadow(0, 0px, 4px, rgba(0, 0, 0, 0.2));
+
+		position: relative;
+		width: 95%;
+
+		.fb-link, .tw-link {
+			display: inline-block;
+			height: @index-docbody-social-width;
+			position: absolute;
+			top: 10px;
+			width: @index-docbody-social-width;
+		}
+
+		.fb-link {
+			background: url(@index-docbody-social-uri) 0 0 no-repeat;
+			right: (@index-docbody-social-width + 10px + 10px);
+		}
+
+		.tw-link {
+			background: url(@index-docbody-social-uri) (-1 * @index-docbody-social-width) 0 no-repeat;
+			right: 10px;
+		}
+	}
+
+	.doc-body-news {
+		position: relative;
+		top: 10px;
+	}
+
+	.doc-body-news-tag, .doc-body-events-tag {
+		height: 35px;
+		left: -10px;
+		margin-bottom: 15px;
+		position: relative;
+		width: @index-docbody-newsevent-width;
+	}
+
+	.doc-body-news-tag   { background: url(@index-docbody-newsevent-uri) 0 0 no-repeat; }
+	.doc-body-events-tag { background: url(@index-docbody-newsevent-uri) (-1 * @index-docbody-newsevent-width) 0 no-repeat; }
+}

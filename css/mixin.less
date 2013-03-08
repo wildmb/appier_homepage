@@ -1,0 +1,16 @@
+//---------------------------------------------------------------------
+// less mixins
+//---------------------------------------------------------------------
+.mixin-rounded-corners (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	-o-border-radius: @radius;
+	border-radius: @radius;
+}
+
+.mixin-box-shadow (@x: 0, @y: 0, @blur: 1px, @color: rgba(0, 0, 0, .065)) {
+	box-shadow: @arguments;
+	-moz-box-shadow: @arguments;
+	-webkit-box-shadow: @arguments;
+}
