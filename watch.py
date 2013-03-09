@@ -31,6 +31,15 @@ class ChangeHandler(FileSystemEventHandler):
         except (OSError, subprocess.CalledProcessError):
             pass
 
+    def compile_js(self):
+
+        print "compile js"
+
+        try:
+            subprocess.check_call(['make', 'js'])
+        except (OSError, subprocess.CalledProcessError):
+            pass
+
     def make_page(self, dirname):
 
         print "make page", dirname
@@ -43,12 +52,13 @@ class ChangeHandler(FileSystemEventHandler):
 
         dirname, basename = self.get_filename_spec(event.src_path)
         ext = os.path.splitext(basename)[-1].lower()
-        print dirname, basename, ext
 
         if ext == '.swp':
             return
         elif ext == '.less':
             self.compile_css()
+        elif ext == '.coffee':
+            self.compile_js()
 
         if basename in ('head', 'body', 'foot'):
             self.make_page(os.path.basename(dirname))
