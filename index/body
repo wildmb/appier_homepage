@@ -4,8 +4,8 @@
   <div class="dissolve">
 
     <div class="dissolve-blue"><img class="container" src="image/index/image_blue.png"></div>
-    <div class="dissolve-orange hide"><img class="container" data-src="image/index/image-orange.png"></div>
-    <div class="dissolve-gray hide"><img class="container" data-src="image/index/image-gray.png"></div>
+    <div class="dissolve-orange hide"><img class="container" data-src="image/index/image_orange.png" ></div>
+    <div class="dissolve-gray hide"><img class="container" data-src="image/index/image_gray.png"></div>
 
     <!-- begin of .dissolve-heading -->
     <div class="dissolve-heading">
