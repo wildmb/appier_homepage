@@ -255,9 +255,9 @@ SignupView = Backbone.View.extend
     }
 
     TEMPLATE: """
-        <h4>Sign up now</h4>
-        Find your international promotion partners in one stop.<br><br>
+        <div class="signup-head"></div>
         <form class="form-horizontal" method="POST">
+            <p style="font-size: 18px;">Find your international promotion partners in one stop.</p>
             <div class="control-group">
             <label class="control-label" for="signup-first-name">First Name*</label>
             <div class="controls">

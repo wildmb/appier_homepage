@@ -526,22 +526,28 @@ footer.container {
   color: #ff6600;
 }
 #layout-signup {
-  background: url("../image/open/sign_bg.png") 0 0 repeat-x;
-  color: #242424;
   font-size: 18px;
-  padding: 15px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
 }
+#layout-signup .signup-head {
+  background: url("../image/open/sign.png") 0 0 no-repeat;
+  height: 45px;
+  width: 300px;
+}
 #layout-signup h4 {
   margin-top: 0;
   font-size: 22px;
 }
 #layout-signup .form-horizontal {
+  background: url("../image/open/sign_bg.png") 0 0 repeat-x;
+  color: #242424;
   font-size: 14px;
+  padding: 15px;
+  width: 270px;
 }
 #layout-signup .form-horizontal .control-group {
   margin-bottom: 10px;
