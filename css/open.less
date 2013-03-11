@@ -1,7 +1,7 @@
 //---------------------------------------------------------------------
 // open marketplace page
 //---------------------------------------------------------------------
-#layout-open {
+#layout-open, #layout-premium {
 
 	//-----------------------------------------------------------------
 	// navbar
@@ -56,7 +56,11 @@
 		font-size: 28px;
 		font-weight: 500;
 	}
+}
 
+@doc-body-left-width: 860px;
+
+#layout-open, #layout-premium {
 	//-----------------------------------------------------------------
 	// doc-body
 	//-----------------------------------------------------------------
@@ -65,8 +69,6 @@
 		font-family: Arial, sans-serif;
 		font-size: 17px;
 	}
-
-	@doc-body-left-width: 860px;
 
 	.doc-body-left {
 		width: @doc-body-left-width;
@@ -95,7 +97,9 @@
 		.key-feature-2 { background: url(@open-keyfeat-uri) (-1 * @open-keyfeat-width) 0 no-repeat; }
 		.key-feature-3 { background: url(@open-keyfeat-uri) (-2 * @open-keyfeat-width) 0 no-repeat; }
 	}
+}
 
+#layout-open {
 	.doc-body-tab {
 		font-size: 0;
 		margin: 55px 0 25px 0;

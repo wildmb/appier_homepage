@@ -1,0 +1,177 @@
+<div id="layout-premium">
+
+	<div class="navbar-bg"></div>
+	<div class="container">
+		<div class="navbar-tri"></div>
+	</div>
+
+	<div class="container bread">
+		<a href="/">Home</a> &gt; Solutions &gt; <a class="is-active" href="/premium.html">Premium Mobile Marketing</a><br>
+		<div class="bread-line"></div>
+	</div>
+
+	<!-- begin of .doc-body -->
+	<div class="container doc-body">
+		<h1 class="headline">Premium Mobile Marketing</h1>
+		<h2 class="sub-headline">A premium buying service propelled by our propriety AI technology and RTB  systems to optimize ad spend and marketing ROI for clients</h2>
+
+		<div class="row-fluid">
+			<!-- begin of .doc-body-left -->
+			<div class="span9 doc-body-left">
+
+				<!-- begin of .doc-body-key-features -->
+				<div class="doc-body-key-features">
+					<h3>Key Features</h3>
+
+					<div class="media">
+						<div class="pull-left media-object key-feature-1"></div>
+						<div class="media-body">
+							Optimizes both content-marketing-driven PR exposure and mobile advertising campaigns in real-time to yield outstanding business result.
+						</div>
+					</div>
+
+					<div class="media">
+						<div class="pull-left media-object key-feature-2"></div>
+						<div class="media-body">
+							Connected with ad exchanges, ad networks, and App promotion media worldwide for performance-driven cross platform promotion.
+						</div>
+					</div>
+
+					<div class="media">
+						<div class="pull-left media-object key-feature-3"></div>
+						<div class="media-body">
+							World’s first and only ad tech platform that is buttressed by our robust leadership position in high growth and ARPU Asian region with largest high quality inventories.
+						</div>
+					</div>
+				</div>
+				<!-- end of .doc-body-key-features -->
+
+				<!-- begin of .doc-body-benefits -->
+				<div class="doc-body-benefits">
+					<h3>Benefits</h3>
+
+					<p class="benefit">
+						<span class="highlight">Programmatic Media Buying</span>
+						to optimize your bidding strategy and budget spending across all ad networks, ad exchanges and PR sites.
+					</p>
+
+					<p class="benefit">
+						<span class="highlight">Real Time Bidding Technologies</span>
+						to access highly-targeted impressions in real time. Your budget will be only spent on users that are valuable to you.
+					</p>
+
+					<p class="benefit">
+						<span class="highlight">Cross Platform Optimization</span>
+						to help you leverage analytics results from web to mobile for better targeting and campaign performance optimization.
+					</p>
+
+					<p class="benefit">
+						<span class="highlight">Reach highest growth/ARPU region</span>
+						Appier has extensive partnerships with local dominant user acquisition channels and App media in Korea, Japan, and China.
+					</p>
+				</div>
+				<!-- end of .doc-body-benefits -->
+
+				<!-- begin of .doc-body-advertiser -->
+				<div class="doc-body-advertiser">
+					<h3>For advertisers</h3>
+
+					<div class="media">
+						<img class="pull-right media-object" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Extensive Services at your Fingertips</h4>
+							Your one stop shop to all different promotion sources, bidding and optimizing in real time.
+						</div>
+					</div>
+
+					<div class="media">
+						<img class="pull-left media-object" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Immense Scale and Scope</h4>
+							You get access to our integrated partnerships with mobile ad exchanges and ad networks spanning worldwide.
+						</div>
+					</div>
+
+					<div class="media">
+						<img class="pull-right media-object" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Access to Mobile Advertising Resources all in one stop</h4>
+							You can reach all our strategic alliances of  more than 60% of all major App review and news sites in Europe and Asia.
+						</div>
+					</div>
+
+					<div class="media">
+						<img class="pull-left media-object" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Precise Audience Targeting</h4>
+							Our AI engine can precisely measure each impression’s value to our advertisers, so no ad budget goes to waste.
+						</div>
+					</div>
+				</div>
+				<!-- end of .doc-body-advertiser -->
+
+				<!-- begin of .doc-body-premium-misc1 -->
+				<div class="media doc-body-premium-misc1">
+					<img class="pull-right media-object" src="">
+					<div class="media-body">
+						<h4 class="media-heading">Access to Premium Thriving and Lucrative Asian Traffic</h4>
+						<p>
+							Compelling dominance in Asia, the flourishing mobile ad region characterized by highest growth, highest ARPU, and a 50% market share on the Android platform.
+						</p>
+						<p>
+							Appier has consolidated all local dominant channels in Asia for loyal user acquisition optimization.
+						</p>
+						<p>
+							Say Goodbye to fraudulent impressions and clicks and Say Hello to 100% accurate attribution – Appier has pre-selected premium and incorporated tracking for your Asian traffic.
+						</p>
+					</div>
+				</div>
+				<!-- end of .doc-body-premium-misc1 -->
+
+				<!-- begin of .doc-body-premium-misc2 -->
+				<div class="media doc-body-premium-misc2">
+					<img class="pull-left media-object" src="">
+					<div class="media-body">
+						<h4 class="media-heading">When Real Time Bidding Meets Geo-location</h4>
+						<p>
+							Our intelligence expertise and real time bidding system enables you to pay only for impressions that will drive high conversion rate.
+						</p>
+						<p>
+							Our proprietary inference engine, harnessed with RTB and mobile features, deciphers the intrinsic value of each granular impression and serves ads to precisely targeted users on the go – Anywhere.  At THE Optimal Time.
+						</p>
+						<p>
+							Obtain and retain loyal and high quality users at the lowest cost and achieve your campaign goals economically.
+						</p>
+					</div>
+				</div>
+				<!-- end of .doc-body-premium-misc2 -->
+
+				<!-- begin of .doc-body-premium-misc3 -->
+				<div class="media doc-body-premium-misc3">
+					<img class="pull-right media-object" src="">
+					<div class="media-body">
+						<h4 class="media-heading">Leverage Cross Platform Campaign Analytics</h4>
+						<p>
+							Our web PR promotion quantitative analysis leads to deep insights corresponding to precise mobile advertising targeting.
+						</p>
+						<p>
+							Promotion experiences are collected cross-platform for optimal autonomous fine-tuning and campaign improvement.
+						</p>
+						<p>
+							Our big data across various media sources enables us to create the best user profiles for meticulous targeting all across platforms and thus cherry-pick your best impressions.
+						</p>
+					</div>
+				</div>
+				<!-- end of .doc-body-premium-misc2 -->
+			</div>
+			<!-- end of .doc-body-left -->
+
+			<div class="span3 doc-body-right">
+				<div id="layout-signup"></div>
+				<div id="layout-news-events"></div>
+			</div>
+		</div>
+	</div>
+	<!-- end of .doc-body -->
+
+</div>

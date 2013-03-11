@@ -1,0 +1,10 @@
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<style>
+.nav-item.is-solutions .nav-menu-body {display: block;}
+.nav-item.is-solutions .nav-menu-body {display: block;}
+.nav-submenu-body {margin-top: 20px;}
+.premium-solution {color: #008ce2;}
+.premium-solution:hover {color: #008ce2;}
+.nav-circle-separator, .open-solution {color: #858585;}
+.open-solution:hover {color: #858585;}
+</style>
