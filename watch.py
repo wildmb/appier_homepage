@@ -45,6 +45,15 @@ class ChangeHandler(FileSystemEventHandler):
         print "make page", dirname
         mkpage.make_page(dirname)
 
+    def make_all(self):
+
+        print "make all"
+
+        try:
+            subprocess.check_call(['make'])
+        except (subprocess.CalledProcessError):
+            pass
+
     def on_any_event(self, event):
 
         if event.is_directory:
@@ -59,6 +68,10 @@ class ChangeHandler(FileSystemEventHandler):
             self.compile_css()
         elif ext == '.coffee':
             self.compile_js()
+
+        if basename == "base.html":
+            self.make_all()
+            return
 
         if basename in ('head', 'body', 'foot'):
             self.make_page(os.path.basename(dirname))
