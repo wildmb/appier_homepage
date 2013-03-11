@@ -387,3 +387,187 @@ footer.container {
 #layout-news-events .doc-body-events-tag {
   background: url("../image/index/news_events_sprite.png") -94px 0 no-repeat;
 }
+#layout-open .navbar-bg {
+  background: url("../image/open/navbar.png") 0 0 repeat-x;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+#layout-open .navbar-tri {
+  background: url("../image/open/navtri.png") 0 0 no-repeat;
+  height: 14px;
+  left: 635px;
+  position: relative;
+  top: -18px;
+  width: 24px;
+  z-index: 1;
+}
+#layout-open .bread {
+  color: #656565;
+  font-size: 13px;
+}
+#layout-open .bread a {
+  color: #656565;
+}
+#layout-open .bread .is-active {
+  color: #008ce2;
+}
+#layout-open .bread-line {
+  background: url("../image/open/line.png") 0 0 no-repeat;
+  height: 15px;
+  width: 1160px;
+}
+#layout-open .headline {
+  color: #004394;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+#layout-open .sub-headline {
+  color: #008ce2;
+  font-size: 28px;
+  font-weight: 500;
+}
+#layout-open .doc-body {
+  color: #454545;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+}
+#layout-open .doc-body-left {
+  width: 860px;
+}
+#layout-open .doc-body-left .media {
+  width: 769.7px;
+}
+#layout-open .doc-body-right {
+  width: 300px;
+}
+#layout-open h3 {
+  color: #004394;
+  font-size: 26px;
+}
+#layout-open .doc-body-key-features .key-feature-1,
+#layout-open .doc-body-key-features .key-feature-2,
+#layout-open .doc-body-key-features .key-feature-3 {
+  height: 50px;
+  width: 70px;
+}
+#layout-open .doc-body-key-features .key-feature-1 {
+  background: url("../image/open/key_feat_sprite.png") 0 0 no-repeat;
+}
+#layout-open .doc-body-key-features .key-feature-2 {
+  background: url("../image/open/key_feat_sprite.png") -70px 0 no-repeat;
+}
+#layout-open .doc-body-key-features .key-feature-3 {
+  background: url("../image/open/key_feat_sprite.png") -140px 0 no-repeat;
+}
+#layout-open .doc-body-tab {
+  font-size: 0;
+  margin: 55px 0 25px 0;
+}
+#layout-open .doc-body-tabbable {
+  cursor: pointer;
+  display: inline-block;
+  height: 52px;
+  width: 402px;
+}
+#layout-open .doc-body-tabbable.is-active {
+  cursor: auto;
+}
+#layout-open .doc-body-tabbable.advertiser {
+  background: url("../image/open/tab_sprite.png") 0 0 no-repeat;
+}
+#layout-open .doc-body-tabbable.advertiser.is-active {
+  background: url("../image/open/tab_sprite.png") 0 -52px no-repeat;
+}
+#layout-open .doc-body-tabbable.publisher {
+  background: url("../image/open/tab_sprite.png") 0 -104px no-repeat;
+}
+#layout-open .doc-body-tabbable.publisher.is-active {
+  background: url("../image/open/tab_sprite.png") 0 -156px no-repeat;
+}
+#layout-open .advertiser-header,
+#layout-open .publisher-header,
+#layout-open .content-marketing-header {
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+#layout-open .advertiser-header li,
+#layout-open .publisher-header li,
+#layout-open .content-marketing-header li {
+  line-height: 30px;
+}
+#layout-open .doc-body-advertiser .media,
+#layout-open .doc-body-publisher .media {
+  margin-bottom: 30px;
+}
+#layout-open .doc-body-advertiser .media-object,
+#layout-open .doc-body-publisher .media-object {
+  background-color: gray;
+  height: 150px;
+  width: 280px;
+}
+#layout-open .doc-body-advertiser .media-heading,
+#layout-open .doc-body-publisher .media-heading {
+  color: #008ce2;
+  font-size: 22px;
+  font-weight: 500;
+}
+#layout-open .doc-body-advertiser .media-body,
+#layout-open .doc-body-publisher .media-body {
+  line-height: 25px;
+}
+#layout-open .content-marketing-item {
+  line-height: 25px;
+  width: 731px;
+}
+#layout-open .content-marketing-item .highlight {
+  color: #ff6600;
+}
+#layout-signup {
+  background: url("../image/open/sign_bg.png") 0 0 repeat-x;
+  color: #242424;
+  font-size: 18px;
+  padding: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#layout-signup h4 {
+  margin-top: 0;
+  font-size: 22px;
+}
+#layout-signup .form-horizontal {
+  font-size: 14px;
+}
+#layout-signup .form-horizontal .control-group {
+  margin-bottom: 10px;
+}
+#layout-signup .form-horizontal .controls {
+  margin-left: 135px;
+}
+#layout-signup .form-horizontal .controls input[type="text"] {
+  width: 120px;
+}
+#layout-signup .form-horizontal .controls select {
+  width: 134px;
+}
+#layout-signup .control-label {
+  width: 125px;
+}
+#layout-signup .getstart-btn {
+  background: url("../image/index/getstart_btn_sprite.png") 0 0 no-repeat;
+  display: block;
+  height: 46px;
+  margin: 20px auto;
+  width: 166px;
+}
+#layout-signup .getstart-btn:hover {
+  background: url("../image/index/getstart_btn_sprite.png") -166px 0 no-repeat;
+}
+#layout-signup .getstart-btn:active {
+  background: url("../image/index/getstart_btn_sprite.png") -332px 0 no-repeat;
+}

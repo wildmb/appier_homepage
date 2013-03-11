@@ -1,7 +1,7 @@
 all:
 	make css
 	make js
-	python mkpage.py index
+	python mkpage.py index open
 
 css:
 	lessc css/appier-style.less > css/appier-style.css

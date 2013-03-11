@@ -1,0 +1,169 @@
+<div id="layout-open">
+
+	<div class="navbar-bg"></div>
+	<div class="container">
+		<div class="navbar-tri"></div>
+	</div>
+
+	<div class="container bread">
+		<a href="/">Home</a> &gt; Solutions &gt; <a class="is-active" href="/">Open Marketplace</a><br>
+		<div class="bread-line"></div>
+	</div>
+
+	<!-- begin of .doc-body -->
+	<div class="container doc-body">
+		<h1 class="headline">Open Marketplace</h1>
+		<h2 class="sub-headline">First B2B Marketplace for App media, App developers, and advertisers to find international promotion resources all in one stop!</h2>
+
+		<div class="row-fluid">
+			<!-- begin of .doc-body-left -->
+			<div class="span9 doc-body-left">
+
+				<!-- begin of .doc-body-key-features -->
+				<div class="doc-body-key-features">
+					<h3>Key Features</h3>
+
+					<div class="media">
+						<div class="pull-left media-object key-feature-1"></div>
+						<div class="media-body">
+							An open marketplace for advertisers and publishers to find the best global promotion resources such as App media, review sites, news hub, and Free App a Day service.
+						</div>
+					</div>
+
+					<div class="media">
+						<div class="pull-left media-object key-feature-2"></div>
+						<div class="media-body">
+							A free and transparent community for advertisers and publishers to orchestrate direct deals with one another.
+						</div>
+					</div>
+
+					<div class="media">
+						<div class="pull-left media-object key-feature-3"></div>
+						<div class="media-body">
+							Effectively transcend transaction and communication barriers to reach all global promotion channels with optimal marketing effectiveness.
+						</div>
+					</div>
+				</div>
+				<!-- end of .doc-body-key-features -->
+
+				<div class="doc-body-tab">
+					<div class="doc-body-tabbable advertiser is-active"></div>
+					<div class="doc-body-tabbable publisher"></div>
+				</div>
+
+				<!-- begin of .doc-body-advertiser -->
+				<div class="doc-body-advertiser">
+					<div class="advertiser-header">
+						Expand your App globally and boost chart rankings locally!  Directly reach the following international promotion media, ALL IN ONE STOP:
+						<ul>
+							<li>App review sites</li>
+							<li>App game portals</li>
+							<li>Blogs &amp; social media</li>
+							<li>Local App stores and portals</li>
+						</ul>
+					</div>
+
+					<h3>Benefits</h3>
+					<div class="media">
+						<img class="pull-right media-object" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">International Market Expansion</h4>
+							You can easily discover profitable business opportunities in other markets to expand your App territory, and conveniently access recommended promotion media.
+						</div>
+					</div>
+
+					<div class="media">
+						<img class="pull-left media-object" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Top Quality Promotion Partners with Highest Chart Impact</h4>
+							Our data mining analyzes uniform metrics of effectiveness for each promotion media.  You can easily understand each media’s chart impact, trends &amp; activity, and audience origin.
+						</div>
+					</div>
+
+					<div class="media">
+						<img class="pull-right media-object" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Revenue Optimization</h4>
+							Boost your game downloads and revenue through effective promotion partnerships monitored by our performance tracking system.
+						</div>
+					</div>
+				</div>
+				<!-- end of .doc-body-advertiser -->
+
+				<!-- begin of .doc-body-publisher -->
+				<div class="doc-body-publisher hide">
+					<div class="publisher-header">
+						Maximize revenue and access the best App content globally!  Directly reach quality App and game developers and sell and manage the following advertising services, ALL IN ONE STOP:
+						<ul>
+							<li>Ad banners</li>
+							<li>App review</li>
+							<li>App featuring</li>
+							<li>App promotion campaigns</li>
+						</ul>
+					</div>
+
+					<h3>Benefits</h3>
+					<div class="media">
+						<img class="pull-right media-object" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Exposure Maximization and Best Global Content Acquisition</h4>
+							You can easily reach popular App/ game developers outside your home market and feature the newest and hottest Apps.  Also, get ready to receive quality ad orders from global advertisers.
+						</div>
+					</div>
+
+					<div class="media">
+						<img class="pull-left media-object" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Revenue Optimization</h4>
+							You can directly orchestrate ad deals with App and game developers with strong buying power from our network.  Without the “middleman”, you maximize your revenue.
+						</div>
+					</div>
+
+					<div class="media">
+						<img class="pull-right media-object" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Professional Image Enhancement</h4>
+							You can clearly demonstrate your media’s leadership by our data mining analysis.  You also get your media’s strengths such as chart impact, trends &amp; activity, and demographics highlighted.
+						</div>
+					</div>
+				</div>
+				<!-- end of .doc-body-publisher -->
+
+				<!-- begin of .doc-body-content-marketing -->
+				<div class="doc-body-content-marketing">
+					<div class="content-marketing-header">
+						<h3>Content marketing vs. App Store Chart Mining</h3>
+						When should I utilize content marketing in my product life cycle?
+						<ul>
+							<li>New release</li>
+							<li>New update</li>
+							<li>New launch</li>
+							<li>“Go free” for today</li>
+						</ul>
+					</div>
+
+					<p class="content-marketing-item">
+						<span class="highlight">What Appier Offers:</span>
+						If you are at any above mentioned stage with your product life cycle, then search no further!
+						Appier’s PR data mining technologies constantly monitor and
+						estimate worldwide App-related PR events to see how they affect App Store Chart rankings.
+					</p>
+
+					<p class="content-marketing-item">
+						<span class="highlight">What You Get:</span>
+						Appier’s chart mining system is powered to help you decide your best App media resources.
+					</p>
+				</div>
+				<!-- end of .doc-body-content-marketing -->
+			</div>
+			<!-- end of .doc-body-left -->
+
+			<div class="span3 doc-body-right">
+				<div id="layout-signup"></div>
+				<div id="layout-news-events"></div>
+			</div>
+		</div>
+	</div>
+	<!-- end of .doc-body -->
+
+</div>

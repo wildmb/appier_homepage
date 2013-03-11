@@ -1,0 +1,44 @@
+#layout-signup {
+	background: url(@open-signup-bg-uri) 0 0 repeat-x;
+	color: #242424;
+	font-size: 18px;
+	//height: 444px;
+	padding: 15px;
+
+	h4 {
+		margin-top: 0;
+		font-size: 22px;
+	}
+
+	.form-horizontal {
+		font-size: 14px;
+
+		.control-group {
+			margin-bottom: 10px;
+		}
+
+		.controls {
+			margin-left: 135px;
+
+			input[type="text"] { width: 120px; }
+			select { width: 134px; }
+		}
+	}
+
+	.control-label {
+		width: 125px;
+	}
+
+	.getstart-btn {
+		background: url(@index-docbody-getstart-btn-uri) 0 0 no-repeat;
+		display: block;
+		height: 46px;
+		margin: 20px auto;
+		width: @index-docbody-getstart-btn-width;
+
+		&:hover  { background: url(@index-docbody-getstart-btn-uri) (-1 * @index-docbody-getstart-btn-width) 0 no-repeat; }
+		&:active { background: url(@index-docbody-getstart-btn-uri) (-2 * @index-docbody-getstart-btn-width) 0 no-repeat; }
+	}
+
+	.mixin-rounded-corners;
+}
