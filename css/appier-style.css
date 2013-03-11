@@ -1,7 +1,7 @@
 /* Base */
 body {
   background: white;
-  min-width: 1280px;
+  min-width: 1200px;
 }
 /* Layouts */
 /* Modules */
@@ -55,9 +55,6 @@ nav a:hover {
 }
 .nav-item.is-solutions .nav-menu-body {
   display: none;
-}
-.nav-item.is-solutions:hover .nav-menu-body {
-  display: block;
 }
 .nav-item.is-btns {
   width: 200px;
