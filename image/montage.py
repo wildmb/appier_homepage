@@ -17,7 +17,7 @@ if __name__ == "__main__":
     try:
         cmd = [
                 'montage', '-background', 'transparent', '-tile',
-                '%sx1' % len(input_images), '-geometry', '+0+0',
+                '1x%s' % len(input_images), '-geometry', '+0+0',
         ]
         cmd.extend(sys.argv[1:])
         subprocess.check_call(cmd)
