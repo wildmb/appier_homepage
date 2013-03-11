@@ -133,22 +133,7 @@
       <!-- end of .doc-body-left -->
 
       <!-- begin of .doc-body-right -->
-      <div class="span3 doc-body-right">
-        <img src="image/index/Q.png" class="doc-body-email" alt="hello@appier.com">
-        <img src="image/index/2013.png" class="doc-body-gdc" alt="2013 GDC Booth #208">
-        <div class="doc-body-news-events">
-          <a class="fb-link" href="https://www.facebook.com/AppierNetwork"></a>
-          <a class="tw-link" href="https://twitter.com/GoAppier"></a>
-
-          <div class="doc-body-news">
-            <div class="doc-body-news-tag"></div>
-          </div>
-
-          <div class="doc-body-events">
-            <div class="doc-body-events-tag"></div>
-          </div>
-        </div>
-      </div>
+      <div class="span3 doc-body-right" id="layout-news-events"></div>
       <!-- end of .doc-body-right -->
 
     </div>
