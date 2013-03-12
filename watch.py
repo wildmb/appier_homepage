@@ -6,8 +6,12 @@ import subprocess
 import time
 
 # third party related imports
-from watchdog.events import FileSystemEventHandler
-from watchdog.observers import Observer
+try:
+    from watchdog.events import FileSystemEventHandler
+    from watchdog.observers import Observer
+except ImportError:
+    print "before using this script, do `pip intall watchdog`"
+    exit(1)
 
 # local library imports
 import mkpage
