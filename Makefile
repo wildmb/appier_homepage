@@ -11,15 +11,8 @@ all:
 css:
 	lessc css/appier-style.less > $(CSS_OUTPUT)
 
-min-css:
-	lessc --yui-compress css/appier-style.less > $(CSS_OUTPUT)
-
 js:
 	coffee -c js/*/*.coffee
-
-min-js:
-	coffee -c js/*/*.coffee
-	uglifyjs --no-copyright --overwrite js/*/*.js
 
 watch:
 	python watch.py
