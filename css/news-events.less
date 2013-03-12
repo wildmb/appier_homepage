@@ -13,8 +13,10 @@
 	.doc-body-news-events {
 		.mixin-box-shadow(0, 0px, 4px, rgba(0, 0, 0, 0.2));
 
+		padding-bottom: 30px;
 		position: relative;
 		width: 95%;
+
 
 		.fb-link, .tw-link {
 			display: inline-block;
@@ -36,9 +38,14 @@
 		}
 	}
 
-	.doc-body-news {
+	.doc-body-news-group {
 		position: relative;
 		top: 10px;
+
+		hr {
+			margin: 10px auto;
+			width: 85%;
+		}
 	}
 
 	.doc-body-news-tag, .doc-body-events-tag {
@@ -51,4 +58,9 @@
 
 	.doc-body-news-tag   { background: url(@index-docbody-newsevent-uri) 0 0 no-repeat; }
 	.doc-body-events-tag { background: url(@index-docbody-newsevent-uri) (-1 * @index-docbody-newsevent-width) 0 no-repeat; }
+
+	.doc-body-news {
+		margin: 0 auto;
+		width: 85%;
+	}
 }
