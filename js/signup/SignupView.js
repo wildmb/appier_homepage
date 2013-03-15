@@ -3,7 +3,13 @@
   var SignupView;
 
   SignupView = Backbone.View.extend({
+    initialize: function() {
+      return this.isRegistering = false;
+    },
     el: '#layout-signup',
+    events: {
+      'click .getstart-btn': 'onRegister'
+    },
     COUNTRY: {
       "BANGLADESH": "BD",
       "BELGIUM": "BE",
@@ -255,7 +261,7 @@
       "QATAR": "QA",
       "MOZAMBIQUE": "MZ"
     },
-    TEMPLATE: "<div class=\"signup-head\"></div>\n<form class=\"form-horizontal\" method=\"POST\">\n    <p style=\"font-size: 18px;\">Find your international promotion partners in one stop.</p>\n    <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-first-name\">First Name*</label>\n    <div class=\"controls\">\n        <input type=\"text\" id=\"signup-first-name\" max-length=\"64\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-last-name\">Last Name*</label>\n    <div class=\"controls\">\n        <input type=\"text\" id=\"signup-last-name\" max-length=\"64\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-company\">Company*</label>\n    <div class=\"controls\">\n        <input type=\"text\" id=\"signup-company\" max-length=\"255\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-country\">Country*</label>\n    <div class=\"controls\">\n        <select id=\"signup-country\">\n            <% for (var i = 0; i < countryNames.length; i++) { %>\n                <% countryName = countryNames[i] %>\n                <option value=\"<%- window.signupView.COUNTRY[countryName] %>\" <%- (countryName === 'TAIWAN') ? 'selected' : '' %>>\n                    <%- countryName %>\n                </option>\n            <% } %>\n        </select>\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-email\">Email*</label>\n    <div class=\"controls\">\n        <input type=\"text\" id=\"signup-email\" max-length=\"255\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-password\">Password*</label>\n    <div class=\"controls\">\n        <input type=\"text\" id=\"signup-email\" max-length=\"255\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-email\">Confirm Password*</label>\n    <div class=\"controls\">\n        <input type=\"text\" id=\"signup-confirm-password\" max-length=\"255\">\n    </div>\n  </div>\n</form>\n<div class=\"getstart-btn\"></div>",
+    TEMPLATE: "<div class=\"signup-head\"></div>\n<form class=\"form-horizontal\" method=\"POST\">\n    <p style=\"font-size: 18px;\">Find your international promotion partners in one stop.</p>\n    <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-first-name\">First Name*</label>\n    <div class=\"controls\">\n        <input type=\"text\" id=\"signup-first-name\" max-length=\"64\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-last-name\">Last Name*</label>\n    <div class=\"controls\">\n        <input type=\"text\" id=\"signup-last-name\" max-length=\"64\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-company\">Company*</label>\n    <div class=\"controls\">\n        <input type=\"text\" id=\"signup-company\" max-length=\"255\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-country\">Country*</label>\n    <div class=\"controls\">\n        <select id=\"signup-country\">\n            <% for (var i = 0; i < countryNames.length; i++) { %>\n                <% countryName = countryNames[i] %>\n                <option value=\"<%- window.signupView.COUNTRY[countryName] %>\" <%- (countryName === 'TAIWAN') ? 'selected' : '' %>>\n                    <%- countryName %>\n                </option>\n            <% } %>\n        </select>\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-email\">Email*</label>\n    <div class=\"controls\">\n        <input type=\"text\" id=\"signup-email\" max-length=\"255\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-password\">Password*</label>\n    <div class=\"controls\">\n        <input type=\"password\" id=\"signup-password\" max-length=\"255\">\n    </div>\n  </div>\n  <div class=\"control-group\">\n    <label class=\"control-label\" for=\"signup-email\">Confirm Password*</label>\n    <div class=\"controls\">\n        <input type=\"password\" id=\"signup-confirm-password\" max-length=\"255\">\n    </div>\n  </div>\n</form>\n<div class=\"getstart-btn\"></div>\n<img src=\"image/open/loading.gif\" id=\"loading\" alt=\"loading\" class=\"hide\">\n<div class=\"modal hide fade\">\n    <div class=\"modal-header\">\n        <a class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</a>\n        <h3>Error</h3>\n    </div>\n    <div class=\"modal-body\"></div>\n    <div class=\"modal-footer\">\n        <a class=\"btn\" data-dismiss=\"modal\">Close</a>\n    </div>\n</div>",
     render: function() {
       var countryNames;
       countryNames = _.keys(SignupView.prototype.COUNTRY);
@@ -264,6 +270,49 @@
         countryNames: countryNames
       }));
       return this;
+    },
+    onRegister: function() {
+      var URL,
+        _this = this;
+      URL = 'http://amd2.tw.plaxie.local:4000/account/register';
+      if (this.isRegistering) {
+        return;
+      } else {
+        this.isRegistering = true;
+      }
+      this.$('#loading').toggleClass('hide');
+      return $.ajax({
+        url: URL,
+        data: {
+          first_name: this.$('#signup-first-name').val(),
+          last_name: this.$('#signup-last-name').val(),
+          company: this.$('#signup-company').val(),
+          country: this.$('#signup-country').val(),
+          email: this.$('#signup-email').val(),
+          password: this.$('#signup-password').val(),
+          password_confirmation: this.$('#signup-confirm-password').val(),
+          _method: 'POST'
+        },
+        dataType: 'jsonp',
+        success: function(response) {
+          var message, _ref, _ref1;
+          if (!response.success) {
+            message = (_ref = (_ref1 = response.payload) != null ? _ref1.error : void 0) != null ? _ref : 'Sorry, there is a problem. Please try later.';
+            return _this.$('.modal').find('.modal-body').text(message).end().modal('show');
+          } else {
+            return window.location = response.next;
+          }
+        },
+        error: function() {
+          var message;
+          message = 'Sorry, there is a problem. Please try later.';
+          return _this.$('.modal').find('.modal-body').text(message).end().modal('show');
+        },
+        complete: function() {
+          _this.isRegistering = false;
+          return _this.$('#loading').toggleClass('hide');
+        }
+      });
     }
   });
 

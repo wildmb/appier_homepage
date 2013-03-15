@@ -17,6 +17,9 @@ js:
 watch:
 	python watch.py
 
+test:
+	python -m SimpleHTTPServer
+
 production:
 	mkdir -p $(PRODUCTION_DIR)
 	mkdir -p $(PRODUCTION_DIR)/css

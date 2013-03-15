@@ -580,7 +580,8 @@ footer.container {
 #layout-signup .form-horizontal .controls {
   margin-left: 135px;
 }
-#layout-signup .form-horizontal .controls input[type="text"] {
+#layout-signup .form-horizontal .controls input[type="text"],
+#layout-signup .form-horizontal .controls input[type="password"] {
   width: 120px;
 }
 #layout-signup .form-horizontal .controls select {
@@ -601,6 +602,11 @@ footer.container {
 }
 #layout-signup .getstart-btn:active {
   background: url("../image/index/getstart_btn_sprite.png") -332px 0 no-repeat;
+}
+#layout-signup #loading {
+  left: 240px;
+  position: relative;
+  top: -55px;
 }
 #layout-premium .doc-body-benefits {
   margin-top: 55px;

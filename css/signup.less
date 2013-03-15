@@ -27,7 +27,7 @@
 		.controls {
 			margin-left: 135px;
 
-			input[type="text"] { width: 120px; }
+			input[type="text"], input[type="password"] { width: 120px; }
 			select { width: 134px; }
 		}
 	}
@@ -45,6 +45,12 @@
 
 		&:hover  { background: url(@index-docbody-getstart-btn-uri) (-1 * @index-docbody-getstart-btn-width) 0 no-repeat; }
 		&:active { background: url(@index-docbody-getstart-btn-uri) (-2 * @index-docbody-getstart-btn-width) 0 no-repeat; }
+	}
+
+	#loading {
+		left: 240px;
+		position: relative;
+		top: -55px;
 	}
 
 	.mixin-rounded-corners;

@@ -1,6 +1,13 @@
 SignupView = Backbone.View.extend
 
+    initialize: ->
+
+        @isRegistering = false
+
     el: '#layout-signup'
+
+    events:
+        'click .getstart-btn': 'onRegister'
 
     COUNTRY: {
         "BANGLADESH": "BD",
@@ -298,17 +305,28 @@ SignupView = Backbone.View.extend
           <div class="control-group">
             <label class="control-label" for="signup-password">Password*</label>
             <div class="controls">
-                <input type="text" id="signup-email" max-length="255">
+                <input type="password" id="signup-password" max-length="255">
             </div>
           </div>
           <div class="control-group">
             <label class="control-label" for="signup-email">Confirm Password*</label>
             <div class="controls">
-                <input type="text" id="signup-confirm-password" max-length="255">
+                <input type="password" id="signup-confirm-password" max-length="255">
             </div>
           </div>
         </form>
         <div class="getstart-btn"></div>
+        <img src="image/open/loading.gif" id="loading" alt="loading" class="hide">
+        <div class="modal hide fade">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal" aria-hidden="true">&times;</a>
+                <h3>Error</h3>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <a class="btn" data-dismiss="modal">Close</a>
+            </div>
+        </div>
     """
 
     render: ->
@@ -320,6 +338,37 @@ SignupView = Backbone.View.extend
         @$el.html(_.template(SignupView::TEMPLATE, countryNames: countryNames))
         @
 
+    onRegister: ->
+
+        URL = 'http://amd2.tw.plaxie.local:4000/account/register'
+
+        if @isRegistering then return else @isRegistering = true
+        @$('#loading').toggleClass 'hide'
+
+        $.ajax
+            url: URL
+            data:
+                first_name: @$('#signup-first-name').val()
+                last_name: @$('#signup-last-name').val()
+                company: @$('#signup-company').val()
+                country: @$('#signup-country').val()
+                email: @$('#signup-email').val()
+                password: @$('#signup-password').val()
+                password_confirmation: @$('#signup-confirm-password').val()
+                _method: 'POST'
+            dataType: 'jsonp'
+            success: (response) =>
+                if not response.success
+                    message = response.payload?.error ? 'Sorry, there is a problem. Please try later.'
+                    @$('.modal').find('.modal-body').text(message).end().modal('show')
+                else
+                    window.location = response.next
+            error: () =>
+                message = 'Sorry, there is a problem. Please try later.'
+                @$('.modal').find('.modal-body').text(message).end().modal('show')
+            complete: () =>
+                @isRegistering = false
+                @$('#loading').toggleClass 'hide'
 
 window.signupView = new SignupView()
 window.signupView.render()
