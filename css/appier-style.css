@@ -442,6 +442,7 @@ footer.container {
   color: #008ce2;
   font-size: 28px;
   font-weight: 500;
+  width: 80%;
 }
 #layout-open .doc-body,
 #layout-premium .doc-body {
