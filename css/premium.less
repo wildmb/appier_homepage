@@ -51,4 +51,16 @@
 			line-height: 30px;
 		}
 	}
+
+	.doc-body-key-features {
+		.key-feature-1, .key-feature-2, .key-feature-3 {
+			height: @premium-keyfeat-height;
+			width: 70px;
+		}
+
+		.key-feature-1 { background: url(@premium-keyfeat-uri) 0 0 no-repeat; }
+		.key-feature-2 { background: url(@premium-keyfeat-uri) 0 (-1 * @premium-keyfeat-height) no-repeat; }
+		.key-feature-3 { background: url(@premium-keyfeat-uri) 0 (-2 * @premium-keyfeat-height) no-repeat; }
+	}
+
 }
