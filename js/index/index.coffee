@@ -20,11 +20,11 @@ $dissolvers = $('.dissolve-blue, .dissolve-orange, .dissolve-gray')
 # current image
 $curr = null
 
-# after 2.5 seconds, next dissolving will start
-ANIMATION_INTERVAL = 2500
+# after 5 seconds, next dissolving will start
+ANIMATION_INTERVAL = 5000
 
-# dissolving lasts 0.5 second
-ANIMATION_DURATION = 1000
+# dissolving lasts 2 second
+ANIMATION_DURATION = 2000
 
 
 onClickDissolveControl = (e) ->

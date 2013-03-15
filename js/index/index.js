@@ -16,9 +16,9 @@
 
   $curr = null;
 
-  ANIMATION_INTERVAL = 2500;
+  ANIMATION_INTERVAL = 5000;
 
-  ANIMATION_DURATION = 1000;
+  ANIMATION_DURATION = 2000;
 
   onClickDissolveControl = function(e) {
     var ix;
