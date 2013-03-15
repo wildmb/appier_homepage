@@ -16,6 +16,7 @@ isDissolving = false
 
 # cached jQuery object
 $dissolvers = $('.dissolve-blue, .dissolve-orange, .dissolve-gray')
+$headlineDissolvers = $('.dissolve-heading-blue, .dissolve-heading-orange, .dissolve-heading-gray')
 
 # current image
 $curr = null
@@ -58,14 +59,21 @@ doDissolving = ($next) ->
 	nextix = $dissolvers.index $next
 	nextnextix = if nextix + 1 >= NUM_DISSOLVE_IMAGES then 0 else nextix + 1
 
+	$currHeadline = $ $headlineDissolvers.get(currix)
+	$nextHeadline = $ $headlineDissolvers.get(nextix)
+
 	# refresh control points
 	$('.dissolve-control').eq(currix).removeClass('is-active').end().eq(nextix).addClass('is-active')
 
 	# do animation
 	$curr.fadeOut(ANIMATION_DURATION, 'swing')
+	$currHeadline.fadeOut(ANIMATION_DURATION, 'swing')
+	$nextHeadline.fadeIn(ANIMATION_DURATION, 'swing')
 	$next.fadeIn ANIMATION_DURATION, 'swing', () ->
 		$curr.addClass 'hide'
+		$currHeadline.addClass 'hide'
 		$next.removeClass 'hide'
+		$nextHeadline.removeClass 'hide'
 
 		isDissolving = false
 		timer = setTimeout($.proxy(doDissolving, window, $dissolvers.eq(nextnextix)), ANIMATION_INTERVAL)

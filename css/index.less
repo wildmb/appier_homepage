@@ -50,6 +50,11 @@
 		top: 35px;
 		width: 100%;
 		z-index: 10;
+
+		& > .container { position: relative; }
+		.dissolve-heading-blue, .dissolve-heading-orange, .dissolve-heading-gray {
+			position: absolute;
+		}
 	}
 
 	.dissolve-signup-btn {
@@ -61,7 +66,7 @@
 	}
 
 	.dissolve-control-group {
-		margin-top: 10px;
+		margin-top: 260px;
 		text-align: center;
 	}
 
@@ -69,7 +74,7 @@
 		background: url(@index-dissolve-dotbtn-uri) 0 0 no-repeat;
 		cursor: pointer;
 		display: inline-block;
-		list-style: none;
+		//list-style: none;
 		width: @index-dissolve-dotbtn-width;
 		height: 14px;
 

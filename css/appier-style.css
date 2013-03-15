@@ -201,6 +201,14 @@ footer.container {
   font-weight: 400;
   line-height: 35px;
 }
+#layout-index .dissolve-heading > .container {
+  position: relative;
+}
+#layout-index .dissolve-heading .dissolve-heading-blue,
+#layout-index .dissolve-heading .dissolve-heading-orange,
+#layout-index .dissolve-heading .dissolve-heading-gray {
+  position: absolute;
+}
 #layout-index .dissolve-signup-btn {
   background: url("../image/index/signup_btn.png") 0 0 no-repeat;
   display: inline-block;
@@ -209,14 +217,13 @@ footer.container {
   width: 216px;
 }
 #layout-index .dissolve-control-group {
-  margin-top: 10px;
+  margin-top: 260px;
   text-align: center;
 }
 #layout-index .dissolve-control {
   background: url("../image/index/dot_sprite.png") 0 0 no-repeat;
   cursor: pointer;
   display: inline-block;
-  list-style: none;
   width: 15px;
   height: 14px;
 }

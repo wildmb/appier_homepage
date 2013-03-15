@@ -10,9 +10,21 @@
     <!-- begin of .dissolve-heading -->
     <div class="dissolve-heading">
       <div class="container">
-        <h1>Reach the Highest Growth<br>& ARPU regions</h1>
-        <h2>One stop to premium Asia Mobile Traffic</h2>
-        <a class="dissolve-signup-btn" href="https://dashboard.appier.com/account/register"></a><br>
+        <div class="dissolve-heading-blue">
+          <h1>Reach the Highest Growth<br>& ARPU regions</h1>
+          <h2>One stop to premium Asia Mobile Traffic.</h2>
+          <a class="dissolve-signup-btn" href="https://dashboard.appier.com/account/register"></a><br>
+        </div>
+        <div class="dissolve-heading-orange hide">
+          <h1>When Real Time Bidding<br>meets Geo-location</h1>
+          <h2>Buy you only the highest value mobile impressions.</h2>
+          <a class="dissolve-signup-btn" href="https://dashboard.appier.com/account/register"></a><br>
+        </div>
+        <div class="dissolve-heading-gray hide">
+          <h1>Mobile Programmatic Buying</h1>
+          <h2>Powered by AI Engine</h2>
+          <a class="dissolve-signup-btn" href="https://dashboard.appier.com/account/register"></a><br>
+        </div>
         <ul class="dissolve-control-group hide">
           <li class="dissolve-control"></li>
           <li class="dissolve-control"></li>
