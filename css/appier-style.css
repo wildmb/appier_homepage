@@ -618,7 +618,14 @@ footer.container {
   width: 90%;
 }
 #layout-premium .doc-body-benefits .highlight {
-  color: #ff6600;
+  color: #0091e4;
+  font-size: 22px;
+  font-weight: 500;
+}
+#layout-premium .doc-body-benefits-img {
+  height: 499px;
+  margin: 10px 0;
+  width: 707px;
 }
 #layout-premium .doc-body-advertiser .media {
   margin-bottom: 30px;
@@ -675,4 +682,9 @@ footer.container {
   color: #0091e4;
   font-size: 22px;
   font-weight: 500;
+}
+#layout-premium .doc-body-key-features-img {
+  height: 293px;
+  margin-top: 10px;
+  width: 712px;
 }
