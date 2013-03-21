@@ -49,15 +49,15 @@
 	}
 
 	.doc-body-news-tag, .doc-body-events-tag {
-		height: 35px;
+		height: @index-docbody-newsevent-height;
 		left: -10px;
 		margin-bottom: 15px;
 		position: relative;
-		width: @index-docbody-newsevent-width;
+		width: 94px;
 	}
 
 	.doc-body-news-tag   { background: url(@index-docbody-newsevent-uri) 0 0 no-repeat; }
-	.doc-body-events-tag { background: url(@index-docbody-newsevent-uri) (-1 * @index-docbody-newsevent-width) 0 no-repeat; }
+	.doc-body-events-tag { background: url(@index-docbody-newsevent-uri) 0 (-1 * @index-docbody-newsevent-height) no-repeat; }
 
 	.doc-body-news {
 		margin: 0 auto;

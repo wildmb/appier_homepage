@@ -394,7 +394,7 @@ footer.container {
   background: url("../image/index/news_events_sprite.png") 0 0 no-repeat;
 }
 #layout-news-events .doc-body-events-tag {
-  background: url("../image/index/news_events_sprite.png") -94px 0 no-repeat;
+  background: url("../image/index/news_events_sprite.png") 0 -35px no-repeat;
 }
 #layout-news-events .doc-body-news {
   margin: 0 auto;
@@ -670,4 +670,9 @@ footer.container {
 }
 #layout-premium .doc-body-key-features .key-feature-3 {
   background: url("../image/premium/key_feat_sprite.png") 0 -100px no-repeat;
+}
+#layout-premium .doc-body-key-features .media .media-body .media-heading {
+  color: #0091e4;
+  font-size: 22px;
+  font-weight: 500;
 }
