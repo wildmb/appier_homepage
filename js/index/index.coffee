@@ -21,8 +21,8 @@ $headlineDissolvers = $('.dissolve-heading-blue, .dissolve-heading-orange, .diss
 # current image
 $curr = null
 
-# after 5 seconds, next dissolving will start
-ANIMATION_INTERVAL = 5000
+# after 9 seconds, next dissolving will start
+ANIMATION_INTERVAL = 9000
 
 # dissolving lasts 2 second
 ANIMATION_DURATION = 2000
