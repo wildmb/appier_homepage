@@ -98,29 +98,3 @@ $('.dissolve-orange img, .dissolve-gray img').each (ix, elem) ->
 	$this.attr('src', $this.attr('data-src')).one 'load', () ->
 		numDissolveLoaded += 1
 		if numDissolveLoaded >= NUM_DISSOLVE_IMAGES then prepareDissolving()
-
-#----------------------------------------------------------------------
-
-# a boolean indicating is mouse is currently on the "solutions" nav bar item
-isMouseOver = false
-
-$('.is-solutions').on('mouseover', (e) ->
-
-	$this = $ e.currentTarget
-
-	$('.nav-menu-body', $this).css('display', 'block')
-
-	isMouseOver = true
-
-).on('mouseout', (e) ->
-
-	$this = $ e.currentTarget
-
-	isMouseOver = false
-
-	hideMenu = ->
-		if not isMouseOver then $('.is-solutions .nav-menu-body').css('display', 'none')
-
-	# delay 0.1 seconds to increase usability
-	setTimeout hideMenu, 100
-)
