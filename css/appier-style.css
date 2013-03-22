@@ -330,7 +330,8 @@ footer.container {
 #layout-index .doc-body-benefit-item .media-body {
   color: #454545;
   font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 500;
 }
 #layout-index .doc-body-benefit-item .media-body {
   font-size: 15px;
