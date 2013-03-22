@@ -15,7 +15,7 @@
 .nav-submenu-body {margin-top: 20px;}
 .premium-solution {color: #008ce2;}
 .premium-solution:hover {color: #008ce2;}
-.nav-circle-separator, .open-solution {color: #858585;}
+.nav-circle-separator, .open-solution, .is-about .nav-menu-body .nav-about {color: #858585;}
 .open-solution:hover {color: #858585;}
 </style>
 
@@ -26,7 +26,7 @@
   <ul class="nav-item-group">
     <li class="nav-item"><a href="/">Home</a></li>
     <li class="nav-item is-solutions">Solutions
-      <div class="nav-menu-body">
+      <div class="nav-menu-body nav-solution-menu hide">
         <div class="underline"></div>
         <div class="nav-submenu-body">
           <a class="nav-solution open-solution" href="open.html">Open Marketplace</a>
@@ -36,7 +36,20 @@
       </div>
     </li>
     <li class="nav-item"><a target="_blank" href="http://blog.appier.com/">Blog</a></li>
-    <!--<li class="nav-item"><a href="/">About</a></li>-->
+    <li class="nav-item is-about">About
+      <div class="nav-menu-body nav-about-menu hide">
+        <div class="underline"></div>
+        <div class="nav-submenu-body">
+          <a class="nav-about about-appier">Appier</a>
+          <span class="nav-circle-separator"></span>
+          <a class="nav-about about-event" href="event.html">Events</a>
+          <span class="nav-circle-separator"></span>
+          <a class="nav-about about-press">Press & Resources</a>
+          <span class="nav-circle-separator"></span>
+          <a class="nav-about about-career">Career</a>
+        </div>
+      </div>
+    </li>
     <li class="nav-item is-btns">
       <a href="https://dashboard.appier.com/account/login" class="nav-login-btn"></a>
       <a href="https://dashboard.appier.com/account/register" class="nav-register-btn"></a>
@@ -236,6 +249,7 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/open/open.js"></script>
+<script src="js/navbar/navbar.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.10/backbone-min.js"></script>
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>

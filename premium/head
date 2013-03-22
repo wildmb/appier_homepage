@@ -5,6 +5,6 @@
 .nav-submenu-body {margin-top: 20px;}
 .premium-solution {color: #008ce2;}
 .premium-solution:hover {color: #008ce2;}
-.nav-circle-separator, .open-solution {color: #858585;}
+.nav-circle-separator, .open-solution, .is-about .nav-menu-body .nav-about {color: #858585;}
 .open-solution:hover {color: #858585;}
 </style>

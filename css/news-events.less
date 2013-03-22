@@ -38,7 +38,7 @@
 		}
 	}
 
-	.doc-body-news-group {
+	.doc-body-news-group, .doc-body-events-group {
 		position: relative;
 		top: 10px;
 
@@ -46,6 +46,10 @@
 			margin: 10px auto;
 			width: 85%;
 		}
+	}
+
+	.doc-body-events-group {
+		margin-top: 20px;
 	}
 
 	.doc-body-news-tag, .doc-body-events-tag {
@@ -59,7 +63,7 @@
 	.doc-body-news-tag   { background: url(@index-docbody-newsevent-uri) 0 0 no-repeat; }
 	.doc-body-events-tag { background: url(@index-docbody-newsevent-uri) 0 (-1 * @index-docbody-newsevent-height) no-repeat; }
 
-	.doc-body-news {
+	.doc-body-news, .doc-body-event {
 		margin: 0 auto;
 		width: 85%;
 	}

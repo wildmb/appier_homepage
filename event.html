@@ -8,12 +8,13 @@
 <link rel="stylesheet" href="css/appier-style.css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Condensed">
 
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700">
 <style>
 .nav-item.is-about .nav-menu-body {display: block;}
 .nav-item.is-about .nav-menu-body {display: block;}
 .nav-submenu-body {margin-top: 20px;}
-.nav-circle-separator, .nav-about {color: #858585;}
-.nav-about:hover {color: #858585;}
+.nav-circle-separator, .nav-about, .open-solution, .premium-solution {color: #858585;}
+.nav-about:hover, .open-solution:hover, .premium-solution:hover {color: #858585;}
 .about-event {color: #008ce2;}
 .about-event:hover {color: #008ce2;}
 </style>
@@ -24,7 +25,7 @@
   <ul class="nav-item-group">
     <li class="nav-item"><a href="/">Home</a></li>
     <li class="nav-item is-solutions">Solutions
-      <div class="nav-menu-body nav-solution-menu">
+      <div class="nav-menu-body nav-solution-menu hide">
         <div class="underline"></div>
         <div class="nav-submenu-body">
           <a class="nav-solution open-solution" href="open.html">Open Marketplace</a>
@@ -35,7 +36,7 @@
     </li>
     <li class="nav-item"><a target="_blank" href="http://blog.appier.com/">Blog</a></li>
     <li class="nav-item is-about">About
-      <div class="nav-menu-body nav-about-menu">
+      <div class="nav-menu-body nav-about-menu hide">
         <div class="underline"></div>
         <div class="nav-submenu-body">
           <a class="nav-about about-appier">Appier</a>
@@ -68,6 +69,8 @@
 
 	<!-- begin of .doc-body -->
 	<div class="container doc-body">
+		<h1 class="doc-body-title">Events</h1>
+		<h2 class="doc-body-subtitle">Meet Appier at these upcoming events</h2>
 	</div>
 	<!-- end of .doc-body -->
 </div>
@@ -110,4 +113,5 @@
   <a class="copyright-link" href="http://www.appier.com/tos/1/Terms%20of%20Service.html">Privacy Policy</a>
 </div>
 
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/navbar/navbar.js"></script>

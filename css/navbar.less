@@ -53,16 +53,11 @@ nav {
 		text-decoration: none;
 	}
 
-	&.is-solutions {
-		.nav-menu-body { display: none; }
-	}
-
 	&.is-btns { width: 200px; }
 }
 
 .nav-menu-body {
 	color: white;
-	left: 168px;
 	line-height: 0;
 	position: absolute;
 	top: 35px;
@@ -73,7 +68,24 @@ nav {
 	}
 }
 
-.nav-solution {
+.nav-solution-menu {
+	left: 168px;
+
+	.nav-submenu-body {
+		margin-left: -305px;
+	}
+}
+
+.nav-about-menu {
+	left: 448px;
+
+	.nav-submenu-body {
+		margin-left: -105px;
+		width: 390px;
+	}
+}
+
+.nav-solution, .nav-about {
 	color: white;
 	font-family: @nav-font-family;
 	font-size: 22px;
