@@ -23,6 +23,16 @@ NewsCollection = Backbone.Collection.extend
         data.posts ? []
 
 
+EventCollection = Backbone.Collection.extend
+
+    url: "/js/event.json"
+
+    parse: (response) ->
+
+        now = (new Date()).getTime() / 1000
+        _.filter response, (res) -> res.beginAt <= now <= res.endAt
+
+
 NewsEventsView = Backbone.View.extend
 
     el: "#layout-news-events"
@@ -44,7 +54,7 @@ NewsEventsView = Backbone.View.extend
             <% if (events.length > 0) { %>
                 <div class="doc-body-events-group">
                     <div class="doc-body-events-tag"></div>
-                    <%= events.join('') %>
+                    <%= events.join('<hr>') %>
                 </div>
             <% } %>
         </div>
@@ -66,13 +76,23 @@ NewsEventsView = Backbone.View.extend
         title = newsModel.get('title') ? ''
         title = title.slice(0, 96).concat('...')
 
-        link = newsModel.get('post_url') ? ''
-
         return """
             <div class="doc-body-news">
                 <div class="doc-body-news-time">#{publishDate}</div>
                 <h5 class="doc-body-news-title">#{title}</h5>
-                <a class="doc-body-news-link" href="#{link}" target="_blank">Read more &gt;</a>
+                <a class="doc-body-news-link" href="#{newsModel.get('post_url') ? ''}" target="_blank">Read more &gt;</a>
+            </div>
+        """
+
+    renderEvent: (eventModel) ->
+
+        if not eventModel instanceof Backbone.Model then return
+
+        return """
+            <div class="doc-body-event">
+                <div class="doc-body-news-time">#{eventModel.get('date')}</div>
+                <h5 class="doc-body-news-title">#{eventModel.get('title')}</h5>
+                <a class="doc-body-news-link" href="#{eventModel.get('link')}" target="_blank">Read more &gt;</a>
             </div>
         """
 
@@ -81,10 +101,11 @@ NewsEventsView = Backbone.View.extend
         data = news: [], events: []
 
         newsCollection = new NewsCollection()
-        newsCollection.fetch()
-        newsCollection.on 'reset', () =>
-            newsCollection.each (m) => data.news.push(@renderNews(m))
+        eventCollection = new EventCollection()
 
+        $.when(newsCollection.fetch(), eventCollection.fetch()).done () =>
+            newsCollection.each (m) => data.news.push(@renderNews(m))
+            eventCollection.each (e) => data.events.push(@renderEvent(e))
             @$el.html(_.template(NewsEventsView::TEMPLATE, data))
 
         @
