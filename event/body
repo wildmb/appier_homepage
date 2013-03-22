@@ -1,0 +1,16 @@
+<div id="layout-event">
+	<div class="navbar-bg"></div>
+	<div class="container">
+		<div class="navbar-tri"></div>
+	</div>
+
+	<div class="container bread">
+		<a href="/">Home</a> &gt; About &gt; <a class="is-active" href="event.html">Events</a><br>
+		<div class="bread-line"></div>
+	</div>
+
+	<!-- begin of .doc-body -->
+	<div class="container doc-body">
+	</div>
+	<!-- end of .doc-body -->
+</div>

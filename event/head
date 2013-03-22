@@ -1,0 +1,9 @@
+<style>
+.nav-item.is-about .nav-menu-body {display: block;}
+.nav-item.is-about .nav-menu-body {display: block;}
+.nav-submenu-body {margin-top: 20px;}
+.nav-circle-separator, .nav-about {color: #858585;}
+.nav-about:hover {color: #858585;}
+.about-event {color: #008ce2;}
+.about-event:hover {color: #008ce2;}
+</style>
