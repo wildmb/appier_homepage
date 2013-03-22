@@ -318,13 +318,13 @@ footer.container {
   background: url("../image/index/benefit_sprite.png") 0 0 no-repeat;
 }
 #layout-index .doc-body-benefit-item .benefit-2 {
-  background: url("../image/index/benefit_sprite.png") -80px 0 no-repeat;
+  background: url("../image/index/benefit_sprite.png") 0 -70px no-repeat;
 }
 #layout-index .doc-body-benefit-item .benefit-3 {
-  background: url("../image/index/benefit_sprite.png") -160px 0 no-repeat;
+  background: url("../image/index/benefit_sprite.png") 0 -140px no-repeat;
 }
 #layout-index .doc-body-benefit-item .benefit-4 {
-  background: url("../image/index/benefit_sprite.png") -240px 0 no-repeat;
+  background: url("../image/index/benefit_sprite.png") 0 -210px no-repeat;
 }
 #layout-index .doc-body-benefit-item .media-heading,
 #layout-index .doc-body-benefit-item .media-body {
