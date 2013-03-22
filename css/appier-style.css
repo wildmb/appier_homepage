@@ -717,6 +717,9 @@ footer.container {
 #layout-event .navbar-tri {
   left: 915px;
 }
+#layout-event .doc-body {
+  padding-bottom: 80px;
+}
 #layout-event .doc-body-title {
   color: #004394;
   font-family: 'Roboto', sans-serif;
@@ -726,4 +729,30 @@ footer.container {
   color: #008ce2;
   font-size: 28px;
   font-weight: 500;
+}
+#layout-event .doc-body-event {
+  height: 100px;
+  border-bottom: 1px dashed;
+  padding-top: 30px;
+  position: relative;
+}
+#layout-event .doc-body-event-date {
+  color: #454545;
+  font-size: 17px;
+}
+#layout-event .doc-body-event-title {
+  color: #004394;
+  font-size: 26px;
+  line-height: 30px;
+  margin: 0;
+}
+#layout-event .doc-body-event-link {
+  color: #008ce2;
+  display: block;
+  font-size: 13px;
+}
+#layout-event .doc-body-event-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }

@@ -3,6 +3,10 @@
 		left: 915px;
 	}
 
+	.doc-body {
+		padding-bottom: 80px;
+	}
+
 	.doc-body-title {
 		color: #004394;
 		font-family: 'Roboto', sans-serif;
@@ -13,5 +17,37 @@
 		color: #008ce2;
 		font-size: 28px;
 		font-weight: 500;
+	}
+
+	.doc-body-event {
+		@padding-top: 30px;
+		height: (130px - @padding-top);
+		border-bottom: 1px dashed;
+		padding-top: @padding-top;
+		position: relative;
+	}
+
+	.doc-body-event-date {
+		color: #454545;
+		font-size: 17px;
+	}
+
+	.doc-body-event-title {
+		color: #004394;
+		font-size: 26px;
+		line-height: 30px;
+		margin: 0;
+	}
+
+	.doc-body-event-link {
+		color: #008ce2;
+		display: block;
+		font-size: 13px;
+	}
+
+	.doc-body-event-image {
+		position: absolute;
+		right: 0;
+		bottom: 0;
 	}
 }
