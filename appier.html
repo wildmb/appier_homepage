@@ -15,9 +15,10 @@
 .nav-submenu-body {margin-top: 20px;}
 .nav-circle-separator, .nav-about, .open-solution, .premium-solution {color: #858585;}
 .nav-about:hover, .open-solution:hover, .premium-solution:hover {color: #858585; padding-border: 5px; border-bottom: 2px solid #858585; }
-.about-event {color: #008ce2;}
-.about-event:hover {color: #008ce2; border-bottom: 2px solid #008ce2; }
+.about-appier {color: #008ce2;}
+.about-appier:hover {color: #008ce2; border-bottom: 2px solid #008ce2; }
 </style>
+
 
 <nav class="container">
   <a class="nav-logo" href="/"></a>
@@ -56,21 +57,38 @@
   </ul>
 </nav>
 
-<div id="layout-event">
+<div id="layout-appier">
 	<div class="navbar-bg"></div>
 	<div class="container">
 		<div class="navbar-tri"></div>
 	</div>
 
 	<div class="container bread">
-		<a href="/">Home</a> &gt; About &gt; <a class="is-active" href="event.html">Events</a><br>
+		<a href="/">Home</a> &gt; About &gt; <a class="is-active" href="appier.html">Appier</a><br>
 		<div class="bread-line"></div>
 	</div>
 
 	<!-- begin of .doc-body -->
 	<div class="container doc-body">
-		<h1 class="doc-body-title">Events</h1>
-		<h2 class="doc-body-subtitle">Meet Appier at these upcoming events</h2>
+		<h1 class="doc-body-title">Appier</h1>
+
+		<div class="row-fluid">
+			<div class="span9">
+				<h2 class="doc-body-heading">Our Vision</h2>
+				<p class="doc-body-content">
+					Here at Appier, we track, analyze and optimize promotion effects and marketing ROI for you across platforms from content-marketing driven PR exposure to mobile advertising campaigns. You just tell us your campaign objectives, and we execute precise platform targeting for you from planning, execution, monitoring to reporting.
+				</p>
+
+				<h2 class="doc-body-heading">Our International Team</h2>
+				<p class="doc-body-content">
+					Appier is formed by a group of passionate computer scientists, data analysts, and online marketers with substantial experience in AI, data mining and digital marketing. Our multicultural team members come from Intel, Yahoo, Group M, renowned game companies, as well as world class AI and data mining research groups from Stanford and Harvard University.
+				</p>
+			</div>
+			<div class="span3">
+				<div id="layout-news-events"></div>
+			</div>
+		</div>
+
 	</div>
 	<!-- end of .doc-body -->
 </div>
@@ -115,4 +133,7 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/navbar/navbar.js"></script>
-<script src="js/event/event.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.10/backbone-min.js"></script>
+<script src="js/news-events/NewsEventsView.js"></script>
+
