@@ -13,7 +13,8 @@
 	<!-- begin of .doc-body -->
 	<div class="container doc-body">
 		<h1 class="headline">Intelligent Mobile Marketing</h1>
-		<h2 class="sub-headline">Appier customizes each strategic mobile promotion campaign to acquire high quality users and maximize marketing ROI.</h2>
+		<h2 class="sub-headline">A comprehensive buying service propelled by our propriety AI technology
+			and RTB systems to optimize ad spend and marketing ROI for clients.</h2>
 
 		<div class="row-fluid">
 			<!-- begin of .doc-body-left -->
@@ -24,69 +25,121 @@
 					<h3>Key Features</h3>
 
 					<div class="media">
-						<!--<div class="pull-left media-object key-feature-1"></div>-->
+						<div class="pull-left media-object key-feature-1"></div>
 						<div class="media-body">
-							<h4 class="media-heading">What We Optimize</h4>
-							Here at Appier, we track, analyze and optimize promotion effects and marketing ROI for you across platforms from content-marketing driven PR exposure to mobile advertising campaigns. You just tell us your campaign objectives, and we execute precise platform targeting for you from planning, execution, monitoring to reporting.
+							<!--<h4 class="media-heading">What We Optimize</h4>
+							Here at Appier, we track, analyze and optimize promotion effects and marketing ROI for you across platforms from content-marketing driven PR exposure to mobile advertising campaigns. You just tell us your campaign objectives, and we execute precise platform targeting for you from planning, execution, monitoring to reporting.-->
+							Optimizes both content-marketing-driven PR exposure and mobile advertising campaigns in real-time to yield outstanding business results.
 						</div>
 					</div>
 
 					<div class="media">
-						<!--<div class="pull-left media-object key-feature-2"></div>-->
+						<div class="pull-left media-object key-feature-2"></div>
 						<div class="media-body">
-							<h4 class="media-heading">Who We are Integrated With</h4>
-							We are connected and integrated with global leading ad exchanges, prominent local ad networks, and various app promotion media worldwide. We analyze more than 200 billion RTB impressions per month and are partnered up with 60% major media sites in Asia and Europe. With us, you’re covered in all geographic bases.
+							<!--<h4 class="media-heading">Who We are Integrated With</h4>
+							We are connected and integrated with global leading ad exchanges, prominent local ad networks, and various app promotion media worldwide. We analyze more than 200 billion RTB impressions per month and are partnered up with 60% major media sites in Asia and Europe. With us, you’re covered in all geographic bases.-->
+							Connected with ad exchanges, ad networks, and App promotion media worldwide for performance-driven cross platform promotion.
 						</div>
 					</div>
 
 					<div class="media">
-						<!--<div class="pull-left media-object key-feature-3"></div>-->
+						<div class="pull-left media-object key-feature-3"></div>
 						<div class="media-body">
-							<h4 class="media-heading">How We Boost Your Bottom Line</h4>
-							Our AI and RTB technology ensures precise audience targeting to get you the most valuable users in the most effective way at any given time!
+							<!--<h4 class="media-heading">How We Boost Your Bottom Line</h4>
+							Our AI and RTB technology ensures precise audience targeting to get you the most valuable users in the most effective way at any given time!-->
+							World’s first and only ad tech platform that is buttressed by our robust leadership position in high growth and ARPU Asian region with largest high quality inventories.
 						</div>
 					</div>
 				</div>
 				<!-- end of .doc-body-key-features -->
 
-				<img src="image/premium/image01.jpg" alt="key features" class="doc-body-key-features-img">
+				<!--<img src="image/premium/image01.jpg" alt="key features" class="doc-body-key-features-img">-->
 
 				<!-- begin of .doc-body-benefits -->
 				<div class="doc-body-benefits">
 					<h3>Key Benefits</h3>
 
 					<p class="benefit">
+						<!--
 						<h4 class="highlight">Strategic user acquisition enhanced by AI optimization and RTB technology</h4>
-						Our proprietary AI engine, harnessed with real-time bidding and mobile optimization, deciphers the intrinsic value of each granular impression every millisecond and serves ads to precisely target users – anywhere. At the optimal time.
+						Our proprietary AI engine, harnessed with real-time bidding and mobile optimization, deciphers the intrinsic value of each granular impression every millisecond and serves ads to precisely target users – anywhere. At the optimal time.-->
+						<span class="highlight">Programmatic Media Buying</span>
+						to optimize your bidding strategy and budget spending across all ad networks, ad exchanges and PR sites.
 					</p>
 
 					<p class="benefit">
+						<!--
 						<h4 class="highlight">Precise user targeting across web PR and mobile platforms</h4>
-						Our big data across various media sources enables us to create the best user profiles for meticulous targeting across web PR and mobile campaigns to cherry-pick the most valuable impressions for you.
+						Our big data across various media sources enables us to create the best user profiles for meticulous targeting across web PR and mobile campaigns to cherry-pick the most valuable impressions for you.-->
+						<span class="highlight">Real Time Bidding Technologies</span>
+						to access highly-targeted impressions in real time. Your budget will be only spent on users that are valuable to you.
 					</p>
 
 					<p class="benefit">
-						<h4 class="highlight">Large geo coverage with specific strength in Asian markets</h4>
-						We are integrated with leading global ad exchanges, and have partnered up with all dominant local channels (ad exchanges, ad networks, promotion media) in Asia for you.
+						<!--<h4 class="highlight">Large geo coverage with specific strength in Asian markets</h4>
+						We are integrated with leading global ad exchanges, and have partnered up with all dominant local channels (ad exchanges, ad networks, promotion media) in Asia for you.-->
+						<span class="highlight">Cross Platform Optimization</span>
+						to help you leverage analytics results from web to mobile for better targeting and campaign performance optimization.
 					</p>
 
 					<p class="benefit">
-						<h4 class="highlight">Continuous campaign tracking and optimization to ensure best performance and ROI</h4>
-						Our optimization technology constantly tracks and monitors your campaign execution, and the data extracted will be used to boost the most precise targeting and the best campaign results continuously.
+						<!--<h4 class="highlight">Continuous campaign tracking and optimization to ensure best performance and ROI</h4>
+						Our optimization technology constantly tracks and monitors your campaign execution, and the data extracted will be used to boost the most precise targeting and the best campaign results continuously.-->
+						<span class="highlight">Reach highest growth/ARPU regions</span>
+						Appier has extensive partnerships with local dominant user acquisition channels and App media in Korea, Japan, and China.
 					</p>
-
+<!--
 					<p class="benefit">
 						<h4 class="highlight">Access to all mobile promotion resources in ONE EASY STOP</h4>
 						You don’t need to search for different promotion media or resources even if you want to go global. Here at Appier is your one stop shop to all different promotion resources, bidding and optimizing for you in real time.
 					</p>
+-->
 				</div>
 				<!-- end of .doc-body-benefits -->
 
-				<img src="image/premium/image02.jpg" alt="key benefits" class="doc-body-benefits-img">
+				<!--<img src="image/premium/image02.jpg" alt="key benefits" class="doc-body-benefits-img">-->
+
+				<!-- begin of .doc-body-advertiser -->
+				<div class="doc-body-advertiser">
+					<h3>For advertisers</h3>
+
+					<div class="media">
+						<img class="pull-right media-object hide" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Extensive Services at your Fingertips</h4>
+							Your one stop shop to all different promotion sources, bidding and optimizing in real time.
+						</div>
+					</div>
+
+					<div class="media">
+						<img class="pull-left media-object hide" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Immense Scale and Scope</h4>
+							You get access to our integrated partnerships with mobile ad exchanges and ad networks spanning worldwide.
+						</div>
+					</div>
+
+					<div class="media">
+						<img class="pull-right media-object hide" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Access to Mobile Advertising Resources all in one stop</h4>
+							You can reach all our strategic alliances of  more than 60% of all major App review and news sites in Europe and Asia.
+						</div>
+					</div>
+
+					<div class="media">
+						<img class="pull-left media-object hide" src="" >
+						<div class="media-body">
+							<h4 class="media-heading">Precise Audience Targeting</h4>
+							Our AI engine can precisely measure each impression’s value to our advertisers, so no ad budget goes to waste.
+						</div>
+					</div>
+				</div>
+				<!-- end of .doc-body-advertiser -->
 
 				<!-- begin of .doc-body-premium-misc1 -->
 				<div class="media doc-body-premium-misc1">
-					<img class="pull-right media-object hide" src="">
+					<img class="pull-left media-object" src="image/premium/inte01.jpg">
 					<div class="media-body">
 						<h4 class="media-heading">Access to Premium Thriving and Lucrative Asian Traffic</h4>
 						<p>
@@ -104,7 +157,7 @@
 
 				<!-- begin of .doc-body-premium-misc2 -->
 				<div class="media doc-body-premium-misc2">
-					<img class="pull-left media-object hide" src="">
+					<img class="pull-right media-object" src="image/premium/inte02.jpg">
 					<div class="media-body">
 						<h4 class="media-heading">When Real Time Bidding Meets Geo-location</h4>
 						<p>
@@ -122,7 +175,7 @@
 
 				<!-- begin of .doc-body-premium-misc3 -->
 				<div class="media doc-body-premium-misc3">
-					<img class="pull-right media-object hide" src="">
+					<img class="pull-left media-object" src="image/premium/inte03.jpg">
 					<div class="media-body">
 						<h4 class="media-heading">Leverage Cross Platform Campaign Analytics</h4>
 						<p>
