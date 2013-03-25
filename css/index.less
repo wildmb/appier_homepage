@@ -138,16 +138,27 @@
 		color: #ff6600;
 	}
 
-	.doc-body-getstart-btn {
-		background: url(@index-docbody-getstart-btn-uri) 0 0 no-repeat;
+	.doc-body-learn-btn {
+		background: url(@index-docbody-learn-btn-uri) 0 0 no-repeat;
 		display: block;
-		height: 46px;
-		margin: 20px 0 20px ((@doc-body-left-width / 2 * @doc-body-market-item - @index-docbody-getstart-btn-width) / 2);
-		width: @index-docbody-getstart-btn-width;
+		height: @index-docbody-learn-height;
+		margin: 20px 0 20px ((@doc-body-left-width / 2 * @doc-body-market-item - @index-docbody-learn-width) / 2);;
+		width: @index-docbody-learn-width;
 
-		&:hover  { background: url(@index-docbody-getstart-btn-uri) (-1 * @index-docbody-getstart-btn-width) 0 no-repeat; }
-		&:active { background: url(@index-docbody-getstart-btn-uri) (-2 * @index-docbody-getstart-btn-width) 0 no-repeat; }
+		&:hover  { background: url(@index-docbody-learn-btn-uri) 0 (-1 * @index-docbody-learn-height) no-repeat; }
+		&:active { background: url(@index-docbody-learn-btn-uri) 0 (-2 * @index-docbody-learn-height) no-repeat; }
 	}
+
+	//.doc-body-getstart-btn {
+	//	background: url(@index-docbody-getstart-btn-uri) 0 0 no-repeat;
+	//	display: block;
+	//	height: 46px;
+	//	margin: 20px 0 20px ((@doc-body-left-width / 2 * @doc-body-market-item - @index-docbody-getstart-btn-width) / 2);
+	//	width: @index-docbody-getstart-btn-width;
+
+	//	&:hover  { background: url(@index-docbody-getstart-btn-uri) (-1 * @index-docbody-getstart-btn-width) 0 no-repeat; }
+	//	&:active { background: url(@index-docbody-getstart-btn-uri) (-2 * @index-docbody-getstart-btn-width) 0 no-repeat; }
+	//}
 
 	.doc-body-key-benefit {
 		@padding: 15px;

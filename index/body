@@ -12,17 +12,17 @@
       <div class="container">
         <div class="dissolve-heading-blue">
           <h1>Reach the Highest Growth<br>& ARPU Regions</h1>
-          <h2>One stop to premium Asian mobile traffic</h2>
+          <h2>One stop to premium Asia mobile traffic</h2>
           <a class="dissolve-signup-btn" href="https://dashboard.appier.com/account/register"></a><br>
         </div>
         <div class="dissolve-heading-orange hide">
-          <h1>Strategic User Acquisition<br>Enhanced by RTB</h1>
-          <h2>Optimal ad serve for each granular impression</h2>
+          <h1>When Real Time Bidding<br>Meets Geo-location</h1>
+          <h2>Buy you only the highest value mobile impressions</h2>
           <a class="dissolve-signup-btn" href="https://dashboard.appier.com/account/register"></a><br>
         </div>
         <div class="dissolve-heading-gray hide">
           <h1>Mobile Programmatic Buying</h1>
-          <h2>Powered by AI Engine</h2>
+          <h2>Powered by AI engine</h2>
           <a class="dissolve-signup-btn" href="https://dashboard.appier.com/account/register"></a><br>
         </div>
         <ul class="dissolve-control-group hide">
@@ -61,7 +61,7 @@
               with more than 60% major app review and PR sites in Europe and Asia.
             </li>
           </ul>
-          <a class="doc-body-getstart-btn" href="https://dashboard.appier.com/account/register"></a>
+          <a class="doc-body-learn-btn" href="open.html"></a>
         </div>
         <!-- end of .doc-body-open-market -->
 
@@ -82,7 +82,8 @@
               ensures precise audience targeting to get you the most valuable users.
             </li>
           </ul>
-          <a class="doc-body-getstart-btn" href="https://dashboard.appier.com/account/register"></a>
+          <!-- TODO remove this inline style -->
+          <a class="doc-body-learn-btn" href="premium.html" style="margin-top: 40px;"></a>
         </div>
         <!-- end of .doc-body-open-market -->
 

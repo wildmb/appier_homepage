@@ -289,18 +289,18 @@ footer.container {
 #layout-index .doc-body-highlight {
   color: #ff6600;
 }
-#layout-index .doc-body-getstart-btn {
-  background: url("../image/index/getstart_btn_sprite.png") 0 0 no-repeat;
+#layout-index .doc-body-learn-btn {
+  background: url("../image/index/learn_sprite.png") 0 0 no-repeat;
   display: block;
-  height: 46px;
-  margin: 20px 0 20px 110.5px;
-  width: 166px;
+  height: 39px;
+  margin: 20px 0 20px 125px;
+  width: 137px;
 }
-#layout-index .doc-body-getstart-btn:hover {
-  background: url("../image/index/getstart_btn_sprite.png") -166px 0 no-repeat;
+#layout-index .doc-body-learn-btn:hover {
+  background: url("../image/index/learn_sprite.png") 0 -39px no-repeat;
 }
-#layout-index .doc-body-getstart-btn:active {
-  background: url("../image/index/getstart_btn_sprite.png") -332px 0 no-repeat;
+#layout-index .doc-body-learn-btn:active {
+  background: url("../image/index/learn_sprite.png") 0 -78px no-repeat;
 }
 #layout-index .doc-body-key-benefit {
   background: url("../image/index/benefit_bg.png") 0 0 repeat-x;
