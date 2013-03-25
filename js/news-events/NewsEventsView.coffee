@@ -38,7 +38,9 @@ NewsEventsView = Backbone.View.extend
     el: "#layout-news-events"
 
     TEMPLATE: """
-        <img src="image/index/Q.png" class="doc-body-email" alt="hello@appier.com">
+        <a href="mailto:hello@appier.com">
+            <img src="image/index/Q.png" class="doc-body-email" alt="hello@appier.com">
+        </a>
         <img src="image/index/2013.png" class="doc-body-gdc" alt="2013 GDC Booth #208">
         <div class="doc-body-news-events">
             <a class="fb-link" target="_blank" href="https://www.facebook.com/AppierNetwork"></a>
