@@ -4,18 +4,15 @@
 
   OrderView = Backbone.View.extend({
     initialize: function() {
-      var _this = this;
-      return $('#hidden-iframe').on('load', function() {
-        _this.$('#order-form, #hidden-iframe').remove();
-        return _this.$('#order-complete').removeClass('hide');
-      });
+      var bindLoadIframe;
+      bindLoadIframe = function() {};
+      return _.delay(bindLoadIframe, 100);
     },
     el: '.order-body',
     events: {
       'change .order-campaign-goal[value="__other_option__"]': 'checkOtherCampaignGoal',
       'keydown .order-campaign-goal-other': 'keyDownOtherCampaignGoal',
-      'click .order-submit-btn': 'validateForm',
-      'load #hidden-iframe': 'completeSubmit'
+      'click .order-submit-btn': 'validateForm'
     },
     checkOtherCampaignGoal: function(e) {
       var $this,
@@ -56,14 +53,15 @@
         }
       });
       if (validate) {
-        return this.$('#order-form').submit();
+        this.$('#order-form').submit();
+        return $('#hidden-iframe').on('load', function() {
+          _this.$('#order-form, #hidden-iframe').remove();
+          return _this.$('#order-complete').removeClass('hide');
+        });
       }
     },
     errorHandler: function($elem) {
       return $elem.parents('.control-group').addClass('error').find('.help-inline').html("You can't leave this empty.");
-    },
-    completeSubmit: function() {
-      return console.log('complete submit');
     }
   });
 

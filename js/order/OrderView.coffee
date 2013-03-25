@@ -2,9 +2,10 @@ OrderView = Backbone.View.extend
 
 	initialize: ->
 
-		$('#hidden-iframe').on 'load', () =>
-			@$('#order-form, #hidden-iframe').remove()
-			@$('#order-complete').removeClass('hide')
+		bindLoadIframe = () ->
+
+
+		_.delay(bindLoadIframe, 100)
 
 	el: '.order-body'
 
@@ -12,7 +13,7 @@ OrderView = Backbone.View.extend
 		'change .order-campaign-goal[value="__other_option__"]': 'checkOtherCampaignGoal'
 		'keydown .order-campaign-goal-other': 'keyDownOtherCampaignGoal'
 		'click .order-submit-btn': 'validateForm'
-		'load #hidden-iframe': 'completeSubmit'
+
 
 	checkOtherCampaignGoal: (e) ->
 
@@ -48,14 +49,13 @@ OrderView = Backbone.View.extend
 
 		if validate
 			@$('#order-form').submit()
+			$('#hidden-iframe').on 'load', () =>
+				@$('#order-form, #hidden-iframe').remove()
+				@$('#order-complete').removeClass('hide')
 
 	errorHandler: ($elem) ->
 
 		$elem.parents('.control-group').addClass('error').find('.help-inline').html("You can't leave this empty.")
-
-	completeSubmit: ->
-
-		console.log 'complete submit'
 
 
 $('.order-body').load 'order_form.html', () ->
