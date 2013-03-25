@@ -327,20 +327,20 @@ footer.container {
 #layout-index .doc-body-benefit-item .benefit-2,
 #layout-index .doc-body-benefit-item .benefit-3,
 #layout-index .doc-body-benefit-item .benefit-4 {
-  height: 70px;
+  height: 55px;
   width: 80px;
 }
 #layout-index .doc-body-benefit-item .benefit-1 {
   background: url("../image/index/benefit_sprite.png") 0 0 no-repeat;
 }
 #layout-index .doc-body-benefit-item .benefit-2 {
-  background: url("../image/index/benefit_sprite.png") 0 -70px no-repeat;
+  background: url("../image/index/benefit_sprite.png") 0 -55px no-repeat;
 }
 #layout-index .doc-body-benefit-item .benefit-3 {
-  background: url("../image/index/benefit_sprite.png") 0 -140px no-repeat;
+  background: url("../image/index/benefit_sprite.png") 0 -110px no-repeat;
 }
 #layout-index .doc-body-benefit-item .benefit-4 {
-  background: url("../image/index/benefit_sprite.png") 0 -210px no-repeat;
+  background: url("../image/index/benefit_sprite.png") 0 -165px no-repeat;
 }
 #layout-index .doc-body-benefit-item .media-heading,
 #layout-index .doc-body-benefit-item .media-body {
