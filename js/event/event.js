@@ -9,7 +9,7 @@
     html = '';
     for (_i = 0, _len = response.length; _i < _len; _i++) {
       res = response[_i];
-      html += "<div class=\"doc-body-event\">\n	<div class=\"doc-body-event-date\">" + res.date + "</div>\n	<h3 class=\"doc-body-event-title\">" + res.title + "</h3>\n	<a href=\"" + res.link + "\" class=\"doc-body-event-link\">" + res.link + "</a>\n	<a href=\"" + res.link + "\"><img src=\"" + res.image + "\" class=\"doc-body-event-image\"></a>\n</div>";
+      html += "<div class=\"doc-body-event\">\n	<div class=\"doc-body-event-date\">" + res.date + "</div>\n	<h3 class=\"doc-body-event-title\">" + res.title + "</h3>\n	<a href=\"" + res.link + "\" class=\"doc-body-event-link\">" + res.visit + "</a> or <a href=\"mailto:hello@appier.com\" class=\"doc-body-event-link\">Request a meeting</a>\n	<a href=\"" + res.link + "\"><img src=\"" + res.image + "\" class=\"doc-body-event-image\"></a>\n</div>";
     }
     return $('.doc-body').append(html);
   });
