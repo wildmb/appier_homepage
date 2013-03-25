@@ -69,16 +69,22 @@ NewsEventsView = Backbone.View.extend
 
         if not newsModel instanceof Backbone.Model then return ''
 
-        t = newsModel.get('timestamp')
-        d = (if t then new Date(t * 1000) else new Date())
-        publishDate = "#{MONTH[d.getMonth()]} #{d.getDate()} #{d.getFullYear()}"
+        #t = newsModel.get('timestamp')
+        #d = (if t then new Date(t * 1000) else new Date())
+        #publishDate = "#{MONTH[d.getMonth()]} #{d.getDate()} #{d.getFullYear()}"
 
         title = newsModel.get('title') ? ''
         title = title.slice(0, 96).concat('...')
 
+        #return """
+        #    <div class="doc-body-news">
+        #        <div class="doc-body-news-time">#{publishDate}</div>
+        #        <h5 class="doc-body-news-title">#{title}</h5>
+        #        <a class="doc-body-news-link" href="#{newsModel.get('post_url') ? ''}" target="_blank">Read more &gt;</a>
+        #    </div>
+        #"""
         return """
             <div class="doc-body-news">
-                <div class="doc-body-news-time">#{publishDate}</div>
                 <h5 class="doc-body-news-title">#{title}</h5>
                 <a class="doc-body-news-link" href="#{newsModel.get('post_url') ? ''}" target="_blank">Read more &gt;</a>
             </div>

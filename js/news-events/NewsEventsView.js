@@ -42,17 +42,14 @@
     el: "#layout-news-events",
     TEMPLATE: "<img src=\"image/index/Q.png\" class=\"doc-body-email\" alt=\"hello@appier.com\">\n<img src=\"image/index/2013.png\" class=\"doc-body-gdc\" alt=\"2013 GDC Booth #208\">\n<div class=\"doc-body-news-events\">\n    <a class=\"fb-link\" target=\"_blank\" href=\"https://www.facebook.com/AppierNetwork\"></a>\n    <a class=\"tw-link\" target=\"_blank\" href=\"https://twitter.com/GoAppier\"></a>\n\n    <% if (news.length > 0) { %>\n        <div class=\"doc-body-news-group\">\n            <div class=\"doc-body-news-tag\"></div>\n            <%= news.join('<hr>') %>\n        </div>\n    <% } %>\n\n    <% if (events.length > 0) { %>\n        <div class=\"doc-body-events-group\">\n            <div class=\"doc-body-events-tag\"></div>\n            <%= events.join('<hr>') %>\n        </div>\n    <% } %>\n</div>",
     renderNews: function(newsModel) {
-      var MONTH, d, publishDate, t, title, _ref, _ref1;
+      var MONTH, title, _ref, _ref1;
       MONTH = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
       if (!newsModel instanceof Backbone.Model) {
         return '';
       }
-      t = newsModel.get('timestamp');
-      d = (t ? new Date(t * 1000) : new Date());
-      publishDate = "" + MONTH[d.getMonth()] + " " + (d.getDate()) + " " + (d.getFullYear());
       title = (_ref = newsModel.get('title')) != null ? _ref : '';
       title = title.slice(0, 96).concat('...');
-      return "<div class=\"doc-body-news\">\n    <div class=\"doc-body-news-time\">" + publishDate + "</div>\n    <h5 class=\"doc-body-news-title\">" + title + "</h5>\n    <a class=\"doc-body-news-link\" href=\"" + ((_ref1 = newsModel.get('post_url')) != null ? _ref1 : '') + "\" target=\"_blank\">Read more &gt;</a>\n</div>";
+      return "<div class=\"doc-body-news\">\n    <h5 class=\"doc-body-news-title\">" + title + "</h5>\n    <a class=\"doc-body-news-link\" href=\"" + ((_ref1 = newsModel.get('post_url')) != null ? _ref1 : '') + "\" target=\"_blank\">Read more &gt;</a>\n</div>";
     },
     renderEvent: function(eventModel) {
       if (!eventModel instanceof Backbone.Model) {
