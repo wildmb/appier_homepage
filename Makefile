@@ -30,8 +30,9 @@ production:
 		coffee -o $(PRODUCTION_DIR)/$$d -c $$d/*.coffee; \
 		for j in `find $$d -name *.js`; do (uglifyjs --no-copyright $$j > $(PRODUCTION_DIR)/$$j); done \
 	done
+	cp js/event.json $(PRODUCTION_DIR)/js
 	python mkpage.py $(PAGES)
-	for p in $(PAGES); do \
+	for p in $(PAGES) order_form; do \
 		java -jar $(HTML_COMPRESSOR_JAR) --type html -o $(PRODUCTION_DIR) $$p.html; \
 	done
 	cp -r image $(PRODUCTION_DIR)
