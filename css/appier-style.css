@@ -145,7 +145,7 @@ footer.container {
 }
 .footer-location.media {
   margin-top: 0;
-  width: 25.5%;
+  width: 27%;
 }
 .footer-location.media .media-heading {
   font-size: 16px;
@@ -157,7 +157,7 @@ footer.container {
 .footer-hiring {
   height: 186px;
   position: absolute;
-  right: 20px;
+  right: 0;
   top: -20px;
   width: 178px;
 }
@@ -225,12 +225,18 @@ footer.container {
 #layout-index .dissolve-heading .dissolve-heading-gray {
   position: absolute;
 }
-#layout-index .dissolve-signup-btn {
-  background: url("../image/index/signup_btn.png") 0 0 no-repeat;
+#layout-index .dissolve-learn-big-btn {
+  background: url("../image/index/learn_big_sprite.png") 0 0 no-repeat;
   display: inline-block;
   height: 55px;
   margin-top: 20px;
   width: 216px;
+}
+#layout-index .dissolve-learn-big-btn:hover {
+  background: url("../image/index/learn_big_sprite.png") 0 -55px no-repeat;
+}
+#layout-index .dissolve-learn-big-btn:active {
+  background: url("../image/index/learn_big_sprite.png") 0 -110px no-repeat;
 }
 #layout-index .dissolve-control-group {
   margin-top: 260px;
@@ -422,6 +428,13 @@ footer.container {
 #layout-news-events .doc-body-event {
   margin: 0 auto;
   width: 85%;
+}
+#layout-news-events .doc-body-news-time {
+  font-size: 14px;
+}
+#layout-news-events .doc-body-news-title {
+  line-height: 16px;
+  margin-bottom: 5px;
 }
 #layout-open .navbar-bg,
 #layout-premium .navbar-bg,
@@ -677,7 +690,8 @@ footer.container {
   color: #008ce2;
   font-size: 22px;
   font-weight: 500;
-  line-height: 35px;
+  line-height: 25px;
+  margin-bottom: 0;
 }
 #layout-premium .doc-body-advertiser .media-body {
   line-height: 25px;
@@ -723,7 +737,7 @@ footer.container {
 }
 #layout-premium .doc-body-key-features-img {
   height: 293px;
-  margin-top: 10px;
+  margin-top: 30px;
   width: 712px;
 }
 #layout-event .navbar-tri,
@@ -791,7 +805,7 @@ footer.container {
 }
 #layout-order .order-body {
   background-color: #fcf7e0;
-  padding: 10px;
+  padding: 10px 10px 25px 10px;
   width: 260px;
 }
 #layout-order .order-submit-btn {
@@ -814,6 +828,9 @@ footer.container {
 }
 #layout-order #order-complete h4 {
   font-size: 14px;
+}
+#layout-appier {
+  font-size: 17px;
 }
 #layout-appier .doc-body-heading {
   color: #004394;

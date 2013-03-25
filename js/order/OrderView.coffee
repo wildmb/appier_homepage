@@ -52,6 +52,7 @@ OrderView = Backbone.View.extend
 			$('#hidden-iframe').on 'load', () =>
 				@$('#order-form, #hidden-iframe').remove()
 				@$('#order-complete').removeClass('hide')
+				$('body').scrollTop 0
 
 	errorHandler: ($elem) ->
 

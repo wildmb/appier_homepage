@@ -57,13 +57,24 @@
 		}
 	}
 
-	.dissolve-signup-btn {
-		background: url(@index-dissolve-signup-btn-uri) 0 0 no-repeat;
+	.dissolve-learn-big-btn {
+		background: url(@index-docbody-learn-big-uri) 0 0 no-repeat;
 		display: inline-block;
-		height: 55px;
+		height: @index-docbody-learn-big-height;
 		margin-top: 20px;
 		width: 216px;
+
+		&:hover  { background: url(@index-docbody-learn-big-uri) 0 (-1 * @index-docbody-learn-big-height) no-repeat; }
+		&:active { background: url(@index-docbody-learn-big-uri) 0 (-2 * @index-docbody-learn-big-height) no-repeat; }
 	}
+
+	//.dissolve-signup-btn {
+	//	background: url(@index-dissolve-signup-btn-uri) 0 0 no-repeat;
+	//	display: inline-block;
+	//	height: 55px;
+	//	margin-top: 20px;
+	//	width: 216px;
+	//}
 
 	.dissolve-control-group {
 		margin-top: 260px;

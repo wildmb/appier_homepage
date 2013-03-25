@@ -56,7 +56,8 @@
         this.$('#order-form').submit();
         return $('#hidden-iframe').on('load', function() {
           _this.$('#order-form, #hidden-iframe').remove();
-          return _this.$('#order-complete').removeClass('hide');
+          _this.$('#order-complete').removeClass('hide');
+          return $('body').scrollTop(0);
         });
       }
     },

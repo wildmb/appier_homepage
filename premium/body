@@ -53,7 +53,7 @@
 				</div>
 				<!-- end of .doc-body-key-features -->
 
-				<!--<img src="image/premium/image01.jpg" alt="key features" class="doc-body-key-features-img">-->
+				<img src="image/premium/image01.jpg" alt="key features" class="doc-body-key-features-img">
 
 				<!-- begin of .doc-body-benefits -->
 				<div class="doc-body-benefits">
@@ -101,7 +101,7 @@
 
 				<!-- begin of .doc-body-advertiser -->
 				<div class="doc-body-advertiser">
-					<h3>For advertisers</h3>
+					<h3>For Advertisers</h3>
 
 					<div class="media">
 						<img class="pull-right media-object hide" src="" >
