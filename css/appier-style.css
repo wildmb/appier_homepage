@@ -756,3 +756,47 @@ footer.container {
   right: 0;
   bottom: 0;
 }
+#layout-order {
+  font-size: 14px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#layout-order .order-header {
+  background-color: #ff6600;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  padding: 10px;
+  width: 260px;
+}
+#layout-order .order-body {
+  background-color: #fcf7e0;
+  padding: 10px;
+  width: 260px;
+}
+#layout-order .order-submit-btn {
+  background: url("../image/premium/submit_sprite.png") 0 0 no-repeat;
+  cursor: pointer;
+  display: block;
+  height: 42px;
+  margin: 0 auto;
+  width: 155px;
+}
+#layout-order .order-submit-btn:hover {
+  background: url("../image/premium/submit_sprite.png") 0 -42px no-repeat;
+}
+#layout-order .order-submit-btn:active {
+  background: url("../image/premium/submit_sprite.png") 0 -84px no-repeat;
+}
+#layout-order #order-complete {
+  color: #454545;
+  font-size: 14px;
+}
+#layout-order #order-complete h4 {
+  font-size: 14px;
+}

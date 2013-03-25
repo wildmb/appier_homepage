@@ -1,0 +1,39 @@
+#layout-order {
+	font-size: 14px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	.mixin-rounded-corners;
+
+	.order-header {
+		background-color: #ff6600;
+		color: white;
+		font-size: 27px;
+		font-weight: bold;
+		padding: 10px;
+		width: 280px - 10px * 2;
+	}
+
+	.order-body {
+		background-color: #fcf7e0;
+		padding: 10px;
+		width: 280px - 10px * 2;
+	}
+
+	.order-submit-btn {
+		background: url(@premium-order-submit-uri) 0 0 no-repeat;
+		cursor: pointer;
+		display: block;
+		height: @premium-order-submit-height;
+		margin: 0 auto;
+		width: 155px;
+
+		&:hover  { background: url(@premium-order-submit-uri) 0 (-1 * @premium-order-submit-height) no-repeat; }
+		&:active { background: url(@premium-order-submit-uri) 0 (-2 * @premium-order-submit-height) no-repeat; }
+	}
+
+	#order-complete {
+		color: #454545;
+		font-size: 14px;
+		h4 { font-size: 14px; }
+	}
+}
