@@ -4,7 +4,8 @@
 .nav-item.is-solutions .nav-menu-body {display: block;}
 .nav-submenu-body {margin-top: 20px;}
 .premium-solution {color: #008ce2;}
-.premium-solution:hover {color: #008ce2;}
+.premium-solution:hover {color: #008ce2; padding-bottom: 5px; border-bottom: 2px solid #008ce2; }
 .nav-circle-separator, .open-solution, .is-about .nav-menu-body .nav-about {color: #858585;}
-.open-solution:hover {color: #858585;}
+.open-solution:hover {color: #858585; padding-bottom: 5px; border-bottom: 2px solid #858585; }
+.nav-about:hover { padding-bottom: 5px; border-bottom: 2px solid #858585; }
 </style>

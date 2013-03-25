@@ -76,7 +76,7 @@ nav a:hover {
   left: 448px;
 }
 .nav-about-menu .nav-submenu-body {
-  margin-left: -105px;
+  margin-left: -153px;
   width: 390px;
 }
 .nav-solution,
@@ -88,14 +88,19 @@ nav a:hover {
 }
 .nav-solution:hover,
 .nav-about:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
   color: white;
-  text-decoration: none;
 }
 .nav-circle-separator {
   font-weight: bold;
 }
 .nav-circle-separator:after {
   content: " · ";
+}
+.is-solutions,
+.is-about {
+  cursor: default;
 }
 .nav-login-btn,
 .nav-register-btn {
