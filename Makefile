@@ -1,4 +1,4 @@
-PAGES = index open premium event appier
+PAGES = index open premium event appier career
 CSS_OUTPUT = css/appier-style.css
 PRODUCTION_DIR = production
 HTML_COMPRESSOR_JAR = htmlcompressor-1.5.3.jar

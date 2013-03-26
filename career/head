@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700">
+<style>
+.nav-item.is-about .nav-menu-body {display: block;}
+.nav-item.is-about .nav-menu-body {display: block;}
+.nav-submenu-body {margin-top: 20px;}
+.nav-circle-separator, .nav-about, .open-solution, .premium-solution {color: #858585;}
+.nav-about:hover, .open-solution:hover, .premium-solution:hover {
+	color: #858585;
+	padding-border: 5px;
+	border-bottom: 2px solid #858585;
+}
+.about-career {color: #008ce2;}
+.about-career:hover {color: #008ce2; border-bottom: 2px solid #008ce2; }
+</style>
