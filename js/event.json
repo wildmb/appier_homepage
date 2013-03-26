@@ -1,19 +1,19 @@
 [
 	{
-		"date": "March 25-29 / San Francisco",
-		"title": "Game Connection",
-		"link": "http://www.game-connection.com",
-		"visit": "Visit Game Connection",
-		"image": "/image/event/logo01.jpg",
-		"beginAt": 0,
-		"endAt": 1364572800
-	},
-	{
 		"date": "March 27-29 / San Francisco",
 		"title": "Game Developer's Conference (Booth 208)",
 		"visit": "Visit GDC",
 		"link": "http://www.gdconf.com/",
 		"image": "/image/event/logo02.jpg",
+		"beginAt": 0,
+		"endAt": 1364572800
+	},
+	{
+		"date": "March 25-27 / San Francisco",
+		"title": "Game Connection",
+		"link": "http://www.game-connection.com",
+		"visit": "Visit Game Connection",
+		"image": "/image/event/logo01.jpg",
 		"beginAt": 0,
 		"endAt": 1364572800
 	},
