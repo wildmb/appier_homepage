@@ -868,5 +868,6 @@ footer.container {
 #layout-career .doc-body-right-bg {
   background: url("../image/career/sideimage.jpg") 0 0 no-repeat;
   height: 580px;
+  margin-bottom: 100px;
   width: 306px;
 }
