@@ -26,6 +26,21 @@
 				<p class="doc-body-content">
 					Appier is formed by a group of passionate computer scientists, data analysts, and online marketers with substantial experience in AI, data mining and digital marketing. Our multicultural team members come from Intel, Yahoo, Group M, renowned game companies, as well as world class AI and data mining research groups from Stanford and Harvard University.
 				</p>
+
+				<h2 class="doc-body-heading">Logo & Brand</h2>
+				<p class="doc-body-content">
+					Download our Appier logo.<br>
+					For light backgrounds
+					<a href="image/appier/Appier_logo_onLight.eps" download="logo_light">.eps</a> or
+					<a href="image/appier/Appier_logo_onLight.png" download="logo_light">.png</a><br><br>
+					<img src="image/appier/logo_light.png" alt="light appier logo"
+						 style="width: 160px; height: 90px;"><br><br>
+					For dark backgrounds
+					<a href="image/appier/Appier_logo_onDark.eps" download="logo_dark">.eps</a> or
+					<a href="image/appier/Appier_logo_onDark.png" download="logo_dark">.png</a><br><br>
+					<img src="image/appier/logo_dark.png" alt="dark appier logo"
+						 style="width: 160px; height: 90px;">
+				</p>
 			</div>
 			<div class="span3">
 				<div id="layout-news-events"></div>
