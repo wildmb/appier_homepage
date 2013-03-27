@@ -372,6 +372,13 @@ footer.container {
   margin: 10px 0;
   height: 94px;
 }
+#layout-news-events .doc-body-resource {
+  background: url("../image/index/ebook.png") 0 0 no-repeat;
+  height: 106px;
+  margin-bottom: 10px;
+  padding: 60px 20px 0 20px;
+  width: 245px;
+}
 #layout-news-events .doc-body-news-events {
   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);

@@ -10,6 +10,17 @@
 		height: 94px;
 	}
 
+	.doc-body-resource {
+		@padding-top: 60px;
+		@padding-left: 20px;
+		@padding-right: 20px;
+		background: url(@index-docbody-newsevent-ebook-uri) 0 0 no-repeat;
+		height: (166px - @padding-top);
+		margin-bottom: 10px;
+		padding: @padding-top @padding-right 0 @padding-left;
+		width: (285px - @padding-left - @padding-right);
+	}
+
 	.doc-body-news-events {
 		.mixin-box-shadow(0, 0px, 4px, rgba(0, 0, 0, 0.2));
 

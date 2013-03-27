@@ -44,6 +44,11 @@ NewsEventsView = Backbone.View.extend
         <a href="event.html">
             <img src="image/index/2013.png" class="doc-body-gdc" alt="2013 GDC Booth #208">
         </a>
+        <div class="doc-body-resource">
+            <b>Messaging apps on the rise</b><br>
+            There are a few fundametal reasons as to why these social media...<br>
+            <a href="resource.html">Download Now &gt;</a>
+        </div>
         <div class="doc-body-news-events">
             <a class="fb-link" target="_blank" href="https://www.facebook.com/AppierNetwork"></a>
             <a class="tw-link" target="_blank" href="https://twitter.com/GoAppier"></a>
