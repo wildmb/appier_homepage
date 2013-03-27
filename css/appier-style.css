@@ -756,15 +756,21 @@ footer.container {
   width: 712px;
 }
 #layout-event .navbar-tri,
-#layout-appier .navbar-tri {
+#layout-appier .navbar-tri,
+#layout-career .navbar-tri,
+#layout-resource .navbar-tri {
   left: 915px;
 }
 #layout-event .doc-body,
-#layout-appier .doc-body {
+#layout-appier .doc-body,
+#layout-career .doc-body,
+#layout-resource .doc-body {
   padding-bottom: 80px;
 }
 #layout-event .doc-body-title,
-#layout-appier .doc-body-title {
+#layout-appier .doc-body-title,
+#layout-career .doc-body-title,
+#layout-resource .doc-body-title {
   color: #004394;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
