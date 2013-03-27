@@ -3,11 +3,6 @@
   var OrderView;
 
   OrderView = Backbone.View.extend({
-    initialize: function() {
-      var bindLoadIframe;
-      bindLoadIframe = function() {};
-      return _.delay(bindLoadIframe, 100);
-    },
     el: '.order-body',
     events: {
       'change .order-campaign-goal[value="__other_option__"]': 'checkOtherCampaignGoal',

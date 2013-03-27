@@ -447,7 +447,8 @@ footer.container {
 #layout-premium .navbar-bg,
 #layout-event .navbar-bg,
 #layout-appier .navbar-bg,
-#layout-career .navbar-bg {
+#layout-career .navbar-bg,
+#layout-resource .navbar-bg {
   background: url("../image/open/navbar.png") 0 0 repeat-x;
   height: 70px;
   position: absolute;
@@ -459,7 +460,8 @@ footer.container {
 #layout-premium .navbar-tri,
 #layout-event .navbar-tri,
 #layout-appier .navbar-tri,
-#layout-career .navbar-tri {
+#layout-career .navbar-tri,
+#layout-resource .navbar-tri {
   background: url("../image/open/navtri.png") 0 0 no-repeat;
   height: 14px;
   left: 635px;
@@ -472,7 +474,8 @@ footer.container {
 #layout-premium .bread,
 #layout-event .bread,
 #layout-appier .bread,
-#layout-career .bread {
+#layout-career .bread,
+#layout-resource .bread {
   color: #656565;
   font-size: 13px;
 }
@@ -480,21 +483,24 @@ footer.container {
 #layout-premium .bread a,
 #layout-event .bread a,
 #layout-appier .bread a,
-#layout-career .bread a {
+#layout-career .bread a,
+#layout-resource .bread a {
   color: #656565;
 }
 #layout-open .bread .is-active,
 #layout-premium .bread .is-active,
 #layout-event .bread .is-active,
 #layout-appier .bread .is-active,
-#layout-career .bread .is-active {
+#layout-career .bread .is-active,
+#layout-resource .bread .is-active {
   color: #008ce2;
 }
 #layout-open .bread-line,
 #layout-premium .bread-line,
 #layout-event .bread-line,
 #layout-appier .bread-line,
-#layout-career .bread-line {
+#layout-career .bread-line,
+#layout-resource .bread-line {
   background: url("../image/open/line.png") 0 0 no-repeat;
   height: 15px;
   width: 1160px;
@@ -503,7 +509,8 @@ footer.container {
 #layout-premium .headline,
 #layout-event .headline,
 #layout-appier .headline,
-#layout-career .headline {
+#layout-career .headline,
+#layout-resource .headline {
   color: #004394;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
@@ -512,7 +519,8 @@ footer.container {
 #layout-premium .sub-headline,
 #layout-event .sub-headline,
 #layout-appier .sub-headline,
-#layout-career .sub-headline {
+#layout-career .sub-headline,
+#layout-resource .sub-headline {
   color: #008ce2;
   font-size: 28px;
   font-weight: 500;
@@ -775,7 +783,10 @@ footer.container {
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
 }
-#layout-event .doc-body-subtitle {
+#layout-event .doc-body-subtitle,
+#layout-appier .doc-body-subtitle,
+#layout-career .doc-body-subtitle,
+#layout-resource .doc-body-subtitle {
   color: #008ce2;
   font-size: 28px;
   font-weight: 500;
@@ -883,4 +894,26 @@ footer.container {
   height: 580px;
   margin-bottom: 100px;
   width: 306px;
+}
+#layout-resource {
+  font-size: 17px;
+}
+#layout-resource i.ebook {
+  background: url("../image/resource/formhead.png") 0 0 no-repeat;
+  display: inline-block;
+  height: 29px;
+  margin-right: 5px;
+  position: relative;
+  top: 5px;
+  width: 34px;
+}
+#layout-resource #layout-order .order-header {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+#layout-resource .doc-body-heading {
+  color: #004394;
+  font-size: 28px;
+  margin: 0;
 }

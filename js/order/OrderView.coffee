@@ -1,12 +1,5 @@
 OrderView = Backbone.View.extend
 
-	initialize: ->
-
-		bindLoadIframe = () ->
-
-
-		_.delay(bindLoadIframe, 100)
-
 	el: '.order-body'
 
 	events:
