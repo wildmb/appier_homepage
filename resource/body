@@ -12,37 +12,42 @@
 	<!-- begin of .doc-body -->
 	<div class="container doc-body">
 		<h1 class="doc-body-title">Resources</h1>
-		<h2 class="doc-body-subtitle">Where intelligence meets news to give you latest information on the mobile industry</h2>
+		<h2 class="doc-body-subtitle">
+			Where intelligence meets news to give you latest information on the mobile industry
+		</h2>
 
 		<div class="row-fluid">
 			<div class="span9">
-				<div class="row-fluid">
-					<img src="image/resource/book.jpg" alt="" class="span3" style="width: 165px; height: 211px;">
-					<div class="span9">
-						<h3 class="doc-body-heading">eBook Download</h3>
-						<strong>Messaging Apps on the Rise</strong>
-						<p>
-							Messaging apps in East Asia have garnered up so much momentum and success in the Asian region,
-							and are unleashing their forces to the global community.
-							This report will examine some important insights about these messaging app giants and the underlying reasons for their success.
-						</p>
-						<ul>
-							<li>Comparison between three primary messaging apps in Asia: Kakaotalk, Wechat, Line.</li>
-							<li>Unique business and monetization models to each messaging app.</li>
-							<li>How the social integration aspect of these apps induce user addiction and the network effect.</li>
-							<li>Different expansion strategies that these messaging apps undertake.</li>
-						</ul>
-						<img src="image/resource/arrow.png" alt="" style="width: 569px; height: 51px">
+				<h3 class="doc-body-heading">Free Research Report Download</h3>
+				<div class="row-fluid doc-body-ebook">
+					<div class="media">
+						<img src="image/resource/book.jpg" alt="" class="pull-left media-object"
+							 style="width: 165px; height: 211px;">
+						<div class="media-body">
+							<p class="doc-body-ebook-date">March 25, 2013</p>
+							<h4 class="media-heading doc-body-ebook-heading">Messaging Apps on the Rise</h4>
+							<ul class="doc-body-ebook-list">
+								<li>
+									Comparison between three primary messaging apps in Asia: Kakaotalk,
+									Wechat, Line.
+								</li>
+								<li>
+									Unique business and monetization models to each messaging app.
+								</li>
+								<li>
+									How the social integration aspect of these apps induce user addiction and the network effect.
+								</li>
+								<li>
+									Different expansion strategies that these messaging apps undertake.
+								</li>
+							</ul>
+						</div>
 					</div>
+
 				</div>
 			</div>
 
-			<div class="span3 doc-body-right">
-				<div id="layout-order">
-					<div class="order-header"><i class="ebook"></i>eBook Download</div>
-					<div class="order-body"></div>
-				</div>
-			</div>
+			<div class="span3 doc-body-right" id="layout-news-events"></div>
 		</div>
 	</div>
 	<!-- end of .doc-body -->

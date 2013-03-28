@@ -385,7 +385,7 @@ footer.container {
   -webkit-box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
   padding-bottom: 30px;
   position: relative;
-  width: 95%;
+  width: 285px;
 }
 #layout-news-events .doc-body-news-events .fb-link,
 #layout-news-events .doc-body-news-events .tw-link {
@@ -916,4 +916,31 @@ footer.container {
   color: #004394;
   font-size: 28px;
   margin: 0;
+}
+#layout-resource .doc-body-ebook {
+  border-bottom: 1px solid #a4a4a4;
+  border-top: 1px solid #a4a4a4;
+  padding: 20px 0;
+}
+#layout-resource .doc-body-ebook .media-object {
+  margin-right: 20px;
+}
+#layout-resource .doc-body-ebook-date {
+  font-size: 14px;
+}
+#layout-resource .doc-body-ebook-heading {
+  color: #008ce2;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+}
+#layout-resource .doc-body-ebook-list {
+  margin-bottom: 0;
+  width: 80%;
+}
+#layout-resource .doc-body-ebook-list > li {
+  line-height: 25px;
+}
+#layout-resource .doc-body-resource {
+  display: none;
 }
