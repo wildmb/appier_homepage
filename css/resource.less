@@ -24,10 +24,12 @@
 	font-size: 17px;
 
 	.doc-body-ebook {
-		border-bottom: 1px solid #a4a4a4;
-		border-top: 1px solid #a4a4a4;
-		padding: 20px 0;
-
+		.media {
+			border-bottom: 1px solid #a4a4a4;
+			border-top: 1px solid #a4a4a4;
+			margin-bottom: 20px;
+			padding: 20px 0;
+		}
 		.media-object {
 			margin-right: 20px;
 		}
@@ -51,6 +53,31 @@
 		& > li {
 			line-height: 25px;
 		}
+	}
+
+	.doc-ebook-download-btn {
+		background: url(@resource-download-uri) 0 0 no-repeat;
+		display: block;
+		height: @resource-download-height;
+		margin: 25px 0 0 55px;
+		width: 185px;
+
+		&:hover  { background: url(@resource-download-uri) 0 (-1 * @resource-download-height) no-repeat; }
+		&:active { background: url(@resource-download-uri) 0 (-2 * @resource-download-height) no-repeat; }
+
+		&.hide { display: none; }
+	}
+
+	.order-submit-btn {
+		background: url(@premium-order-submit-uri) 0 0 no-repeat;
+		cursor: pointer;
+		display: block;
+		height: @premium-order-submit-height;
+		margin: 25px 0 0 85px;
+		width: 155px;
+
+		&:hover  { background: url(@premium-order-submit-uri) 0 (-1 * @premium-order-submit-height) no-repeat; }
+		&:active { background: url(@premium-order-submit-uri) 0 (-2 * @premium-order-submit-height) no-repeat; }
 	}
 
 	.doc-body-resource { display: none; }

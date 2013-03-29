@@ -917,9 +917,10 @@ footer.container {
   font-size: 28px;
   margin: 0;
 }
-#layout-resource .doc-body-ebook {
+#layout-resource .doc-body-ebook .media {
   border-bottom: 1px solid #a4a4a4;
   border-top: 1px solid #a4a4a4;
+  margin-bottom: 20px;
   padding: 20px 0;
 }
 #layout-resource .doc-body-ebook .media-object {
@@ -940,6 +941,36 @@ footer.container {
 }
 #layout-resource .doc-body-ebook-list > li {
   line-height: 25px;
+}
+#layout-resource .doc-ebook-download-btn {
+  background: url("../image/resource/download_sprite.png") 0 0 no-repeat;
+  display: block;
+  height: 43px;
+  margin: 25px 0 0 55px;
+  width: 185px;
+}
+#layout-resource .doc-ebook-download-btn:hover {
+  background: url("../image/resource/download_sprite.png") 0 -43px no-repeat;
+}
+#layout-resource .doc-ebook-download-btn:active {
+  background: url("../image/resource/download_sprite.png") 0 -86px no-repeat;
+}
+#layout-resource .doc-ebook-download-btn.hide {
+  display: none;
+}
+#layout-resource .order-submit-btn {
+  background: url("../image/premium/submit_sprite.png") 0 0 no-repeat;
+  cursor: pointer;
+  display: block;
+  height: 42px;
+  margin: 25px 0 0 85px;
+  width: 155px;
+}
+#layout-resource .order-submit-btn:hover {
+  background: url("../image/premium/submit_sprite.png") 0 -42px no-repeat;
+}
+#layout-resource .order-submit-btn:active {
+  background: url("../image/premium/submit_sprite.png") 0 -84px no-repeat;
 }
 #layout-resource .doc-body-resource {
   display: none;

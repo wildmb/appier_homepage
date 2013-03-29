@@ -19,7 +19,7 @@
 		<div class="row-fluid">
 			<div class="span9">
 				<h3 class="doc-body-heading">Free Research Report Download</h3>
-				<div class="row-fluid doc-body-ebook">
+				<div class="doc-body-ebook">
 					<div class="media">
 						<img src="image/resource/book.jpg" alt="" class="pull-left media-object"
 							 style="width: 165px; height: 211px;">
@@ -43,8 +43,10 @@
 							</ul>
 						</div>
 					</div>
-
 				</div>
+
+				<h3 class="doc-body-heading">Please fill out the form to download the free report!</h3>
+				<div class="order-body"></div>
 			</div>
 
 			<div class="span3 doc-body-right" id="layout-news-events"></div>
