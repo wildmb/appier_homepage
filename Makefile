@@ -32,7 +32,7 @@ production:
 	done
 	cp js/event.json $(PRODUCTION_DIR)/js
 	python mkpage.py $(PAGES)
-	for p in $(PAGES) order_form; do \
+	for p in $(PAGES) order_form order_form_horizontal; do \
 		java -jar $(HTML_COMPRESSOR_JAR) --type html -o $(PRODUCTION_DIR) $$p.html; \
 	done
 	cp -r image $(PRODUCTION_DIR)
