@@ -1,32 +1,5 @@
 [
 	{
-		"date": "March 27-29 / San Francisco",
-		"title": "Game Developer's Conference (Booth 208)",
-		"visit": "Visit GDC",
-		"link": "http://www.gdconf.com/",
-		"image": "/image/event/logo02.jpg",
-		"beginAt": 0,
-		"endAt": 1364572800
-	},
-	{
-		"date": "March 25-27 / San Francisco",
-		"title": "Game Connection",
-		"link": "http://www.game-connection.com",
-		"visit": "Visit Game Connection",
-		"image": "/image/event/logo01.jpg",
-		"beginAt": 0,
-		"endAt": 1364572800
-	},
-	{
-		"date": "April 9-10 / San Francisco",
-		"title": "Ad:Tech",
-		"visit": "Visit Ad:Tech",
-		"link": "http://www.ad-tech.com/",
-		"image": "/image/event/logo03.jpg",
-		"beginAt": 1364572800,
-		"endAt": 1365609600
-	},
-	{
 		"date": "May 7-8 / Beijing",
 		"title": "GMIC (Global Mobile Internet Conference)",
 		"visit": "Visit GMIC",
@@ -34,5 +7,14 @@
 		"image": "/image/event/logo04.jpg",
 		"beginAt": 1364572800,
 		"endAt": 1368028800
+	},
+	{
+		"date": "May 14-15 / San Francisco",
+		"title": "MobileGamingUSAWest (Global Mobile Internet Conference)<br><font size='-1'>Appier CEO Chih-Han is invited as a panelist in 'Exploring the evolution of the mobile gaming marketplace in Asia' forum</font>",
+		"visit": "Visit MobileGamingUSAWest",
+		"link": "http://videogamesintelligence.com/mobile-gaming-west/",
+		"image": "/image/event/logo05.jpg",
+		"beginAt": 1368518400,
+		"endAt": 1368637200
 	}
 ]
